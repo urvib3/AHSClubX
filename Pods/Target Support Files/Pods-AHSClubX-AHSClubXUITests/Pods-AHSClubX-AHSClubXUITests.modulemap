@@ -1,0 +1,6 @@
+framework module Pods_AHSClubX_AHSClubXUITests {
+  umbrella header "Pods-AHSClubX-AHSClubXUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
