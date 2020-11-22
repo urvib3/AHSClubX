@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -8,10 +9,19 @@
 </dict>
 </plist>
 =======
+=======
+>>>>>>> GoogleSignIn
 <Workspace
    version = "1.0">
    <FileRef
       location = "group:AHSClubX.xcodeproj">
    </FileRef>
+<<<<<<< HEAD
 </Workspace>
 >>>>>>> 4327f81af15e9b0e9fb0b7e8874a046c5ab0154f
+=======
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
+>>>>>>> GoogleSignIn

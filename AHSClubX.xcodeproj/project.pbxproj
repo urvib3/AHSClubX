@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2CCCC006327F2431367F9C /* Pods_AHSClubXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF549AE70F3E3F658EEF241 /* Pods_AHSClubXTests.framework */; };
 		A5CC1140256477E000872D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC113F256477E000872D39 /* AppDelegate.swift */; };
 		A5CC1142256477E000872D39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1141256477E000872D39 /* SceneDelegate.swift */; };
 		A5CC1144256477E000872D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1143256477E000872D39 /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		A5CC114C256477E000872D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CC114A256477E000872D39 /* LaunchScreen.storyboard */; };
 		A5CC1157256477E000872D39 /* AHSClubXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1156256477E000872D39 /* AHSClubXTests.swift */; };
 		A5CC1162256477E100872D39 /* AHSClubXUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1161256477E100872D39 /* AHSClubXUITests.swift */; };
+		A5CC11BC2564BECC00872D39 /* credentials (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = A5CC11BB2564BECC00872D39 /* credentials (1).plist */; };
+		ACD32B596A5E0B94B8CF169B /* Pods_AHSClubX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52393811569A9E6BBB49032D /* Pods_AHSClubX.framework */; };
+		EA830D119870EC1A2806C9B4 /* Pods_AHSClubX_AHSClubXUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97CA7F094B722DB144F73965 /* Pods_AHSClubX_AHSClubXUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04878D8877EC34430F39D7F5 /* Pods-AHSClubX-AHSClubXUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX-AHSClubXUITests.release.xcconfig"; path = "Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1BFF5FF903659AB041863724 /* Pods-AHSClubXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubXTests.release.xcconfig"; path = "Target Support Files/Pods-AHSClubXTests/Pods-AHSClubXTests.release.xcconfig"; sourceTree = "<group>"; };
+		52393811569A9E6BBB49032D /* Pods_AHSClubX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHSClubX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80D2911D7C9FD135C6F0ED03 /* Pods-AHSClubX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX.debug.xcconfig"; path = "Target Support Files/Pods-AHSClubX/Pods-AHSClubX.debug.xcconfig"; sourceTree = "<group>"; };
+		97CA7F094B722DB144F73965 /* Pods_AHSClubX_AHSClubXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHSClubX_AHSClubXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4B77EE1652168007BCF49C /* Pods-AHSClubX-AHSClubXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX-AHSClubXUITests.debug.xcconfig"; path = "Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A448BCAD267FAAF205E82895 /* Pods-AHSClubX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX.release.xcconfig"; path = "Target Support Files/Pods-AHSClubX/Pods-AHSClubX.release.xcconfig"; sourceTree = "<group>"; };
 		A5CC113C256477E000872D39 /* AHSClubX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHSClubX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CC113F256477E000872D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CC1141256477E000872D39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,9 @@
 		A5CC115D256477E100872D39 /* AHSClubXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHSClubXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CC1161256477E100872D39 /* AHSClubXUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AHSClubXUITests.swift; sourceTree = "<group>"; };
 		A5CC1163256477E100872D39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CC11BB2564BECC00872D39 /* credentials (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "credentials (1).plist"; sourceTree = "<group>"; };
+		BAF549AE70F3E3F658EEF241 /* Pods_AHSClubXTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHSClubXTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0617A7EB066C857C9FF2ED0 /* Pods-AHSClubXTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubXTests.debug.xcconfig"; path = "Target Support Files/Pods-AHSClubXTests/Pods-AHSClubXTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD32B596A5E0B94B8CF169B /* Pods_AHSClubX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E2CCCC006327F2431367F9C /* Pods_AHSClubXTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA830D119870EC1A2806C9B4 /* Pods_AHSClubX_AHSClubXUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A3F0061196D31A664B53A29E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52393811569A9E6BBB49032D /* Pods_AHSClubX.framework */,
+				97CA7F094B722DB144F73965 /* Pods_AHSClubX_AHSClubXUITests.framework */,
+				BAF549AE70F3E3F658EEF241 /* Pods_AHSClubXTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A5CC1133256477E000872D39 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +110,8 @@
 				A5CC1155256477E000872D39 /* AHSClubXTests */,
 				A5CC1160256477E100872D39 /* AHSClubXUITests */,
 				A5CC113D256477E000872D39 /* Products */,
+				D9C5DAC8DAB940FF908E0A10 /* Pods */,
+				A3F0061196D31A664B53A29E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +135,7 @@
 				A5CC1148256477E000872D39 /* Assets.xcassets */,
 				A5CC114A256477E000872D39 /* LaunchScreen.storyboard */,
 				A5CC114D256477E000872D39 /* Info.plist */,
+				A5CC11BB2564BECC00872D39 /* credentials (1).plist */,
 			);
 			path = AHSClubX;
 			sourceTree = "<group>";
@@ -128,6 +158,20 @@
 			path = AHSClubXUITests;
 			sourceTree = "<group>";
 		};
+		D9C5DAC8DAB940FF908E0A10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80D2911D7C9FD135C6F0ED03 /* Pods-AHSClubX.debug.xcconfig */,
+				A448BCAD267FAAF205E82895 /* Pods-AHSClubX.release.xcconfig */,
+				9B4B77EE1652168007BCF49C /* Pods-AHSClubX-AHSClubXUITests.debug.xcconfig */,
+				04878D8877EC34430F39D7F5 /* Pods-AHSClubX-AHSClubXUITests.release.xcconfig */,
+				D0617A7EB066C857C9FF2ED0 /* Pods-AHSClubXTests.debug.xcconfig */,
+				1BFF5FF903659AB041863724 /* Pods-AHSClubXTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CC1166256477E100872D39 /* Build configuration list for PBXNativeTarget "AHSClubX" */;
 			buildPhases = (
+				1A4B19C97329D9DE1D388378 /* [CP] Check Pods Manifest.lock */,
 				A5CC1138256477E000872D39 /* Sources */,
 				A5CC1139256477E000872D39 /* Frameworks */,
 				A5CC113A256477E000872D39 /* Resources */,
+				92D2AA53C01A3F1972C48EDE /* [CP] Embed Pods Frameworks */,
+				2F024E4613B6D028074150CC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CC1169256477E100872D39 /* Build configuration list for PBXNativeTarget "AHSClubXTests" */;
 			buildPhases = (
+				14C1D06720B40B4A0C2201D1 /* [CP] Check Pods Manifest.lock */,
 				A5CC114E256477E000872D39 /* Sources */,
 				A5CC114F256477E000872D39 /* Frameworks */,
 				A5CC1150256477E000872D39 /* Resources */,
@@ -170,9 +218,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5CC116C256477E100872D39 /* Build configuration list for PBXNativeTarget "AHSClubXUITests" */;
 			buildPhases = (
+				E24DB02DE7EE53B008D0C0F2 /* [CP] Check Pods Manifest.lock */,
 				A5CC1159256477E100872D39 /* Sources */,
 				A5CC115A256477E100872D39 /* Frameworks */,
 				A5CC115B256477E100872D39 /* Resources */,
+				CD65FC5290E079276C3A99E1 /* [CP] Embed Pods Frameworks */,
+				8239659865EBC8B0AB2446C8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -234,6 +285,7 @@
 				A5CC114C256477E000872D39 /* LaunchScreen.storyboard in Resources */,
 				A5CC1149256477E000872D39 /* Assets.xcassets in Resources */,
 				A5CC1147256477E000872D39 /* Main.storyboard in Resources */,
+				A5CC11BC2564BECC00872D39 /* credentials (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +304,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		14C1D06720B40B4A0C2201D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHSClubXTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1A4B19C97329D9DE1D388378 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHSClubX-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F024E4613B6D028074150CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX/Pods-AHSClubX-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX/Pods-AHSClubX-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHSClubX/Pods-AHSClubX-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8239659865EBC8B0AB2446C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92D2AA53C01A3F1972C48EDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX/Pods-AHSClubX-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX/Pods-AHSClubX-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHSClubX/Pods-AHSClubX-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD65FC5290E079276C3A99E1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24DB02DE7EE53B008D0C0F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AHSClubX-AHSClubXUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A5CC1138256477E000872D39 /* Sources */ = {
@@ -433,6 +622,7 @@
 		};
 		A5CC1167256477E100872D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D2911D7C9FD135C6F0ED03 /* Pods-AHSClubX.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +641,7 @@
 		};
 		A5CC1168256477E100872D39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A448BCAD267FAAF205E82895 /* Pods-AHSClubX.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +660,7 @@
 		};
 		A5CC116A256477E100872D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0617A7EB066C857C9FF2ED0 /* Pods-AHSClubXTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +682,7 @@
 		};
 		A5CC116B256477E100872D39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BFF5FF903659AB041863724 /* Pods-AHSClubXTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +704,7 @@
 		};
 		A5CC116D256477E100872D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B4B77EE1652168007BCF49C /* Pods-AHSClubX-AHSClubXUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +724,7 @@
 		};
 		A5CC116E256477E100872D39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04878D8877EC34430F39D7F5 /* Pods-AHSClubX-AHSClubXUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

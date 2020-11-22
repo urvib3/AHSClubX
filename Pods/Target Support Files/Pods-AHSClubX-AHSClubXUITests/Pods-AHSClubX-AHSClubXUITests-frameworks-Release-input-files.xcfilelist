@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AppAuth-framework/AppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMAppAuth-framework/GTMAppAuth.framework
+${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-framework/GTMSessionFetcher.framework
