@@ -9,15 +9,13 @@ import UIKit
 import GoogleSignIn
 
 // Match the ObjC symbol name inside Main.storyboard.
-@objc(ViewController)
+@objc(LoginVC)
 // [START viewcontroller_interfaces]
-class ViewController: UIViewController {
+class LoginVC: UIViewController {
 // [END viewcontroller_interfaces]
 
   // [START viewcontroller_vars]
   @IBOutlet weak var signInButton: GIDSignInButton!
-  @IBOutlet weak var signOutButton: UIButton!
-  @IBOutlet weak var disconnectButton: UIButton!
   @IBOutlet weak var statusText: UILabel!
   // [END viewcontroller_vars]
 
@@ -30,9 +28,13 @@ class ViewController: UIViewController {
     // Automatically sign in the user.
     GIDSignIn.sharedInstance()?.restorePreviousSignIn()
 
+    // Setup allowing CalendarVC to access buttons
+    NotificationCenter.default.addObserver(self, selector: #selector(prepFromCalendar), name: NSNotification.Name(rawValue: "prepFromCalendar"), object: nil)
+
+    
     // [START_EXCLUDE]
     NotificationCenter.default.addObserver(self,
-        selector: #selector(ViewController.receiveToggleAuthUINotification(_:)),
+        selector: #selector(LoginVC.receiveToggleAuthUINotification(_:)),
         name: NSNotification.Name(rawValue: "ToggleAuthUINotification"),
         object: nil)
 
@@ -65,17 +67,23 @@ class ViewController: UIViewController {
   func toggleAuthUI() {
     if let _ = GIDSignIn.sharedInstance()?.currentUser?.authentication {
       // Signed in
-      signInButton.isHidden = true
-      signOutButton.isHidden = false
-      disconnectButton.isHidden = false
+      let storyboard = UIStoryboard(name: "Main", bundle: nil)
+      let vc = storyboard.instantiateViewController(withIdentifier: "CalendarViewController")
+      self.present(vc, animated: false, completion: nil)
+        
     } else {
-      signInButton.isHidden = false
-      signOutButton.isHidden = true
-      disconnectButton.isHidden = true
-      statusText.text = "Google Sign in\niOS Demo"
+      // Signed out
     }
   }
   // [END toggle_auth]
+    
+  @objc func prepFromCalendar() {
+    print("Received Notification")
+    // insert any code needed to update Login Page from Calendar View before segue
+    //self.modalPresentationStyle = .fullScreen
+    //self.presentationController?.presentedView?.gestureRecognizers?[0].isEnabled = false
+    statusText.text = "User signed out"
+  }
 
   override var preferredStatusBarStyle: UIStatusBarStyle {
     return UIStatusBarStyle.lightContent

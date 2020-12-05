@@ -3,14 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		1E2CCCC006327F2431367F9C /* Pods_AHSClubXTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF549AE70F3E3F658EEF241 /* Pods_AHSClubXTests.framework */; };
+		901EF85D25748C120025C4D1 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 901EF85C25748C120025C4D1 /* CalendarViewController.swift */; };
 		A5CC1140256477E000872D39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC113F256477E000872D39 /* AppDelegate.swift */; };
 		A5CC1142256477E000872D39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1141256477E000872D39 /* SceneDelegate.swift */; };
-		A5CC1144256477E000872D39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1143256477E000872D39 /* ViewController.swift */; };
+		A5CC1144256477E000872D39 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CC1143256477E000872D39 /* LoginVC.swift */; };
 		A5CC1147256477E000872D39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CC1145256477E000872D39 /* Main.storyboard */; };
 		A5CC1149256477E000872D39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5CC1148256477E000872D39 /* Assets.xcassets */; };
 		A5CC114C256477E000872D39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CC114A256477E000872D39 /* LaunchScreen.storyboard */; };
@@ -43,13 +44,14 @@
 		1BFF5FF903659AB041863724 /* Pods-AHSClubXTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubXTests.release.xcconfig"; path = "Target Support Files/Pods-AHSClubXTests/Pods-AHSClubXTests.release.xcconfig"; sourceTree = "<group>"; };
 		52393811569A9E6BBB49032D /* Pods_AHSClubX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHSClubX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80D2911D7C9FD135C6F0ED03 /* Pods-AHSClubX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX.debug.xcconfig"; path = "Target Support Files/Pods-AHSClubX/Pods-AHSClubX.debug.xcconfig"; sourceTree = "<group>"; };
+		901EF85C25748C120025C4D1 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		97CA7F094B722DB144F73965 /* Pods_AHSClubX_AHSClubXUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AHSClubX_AHSClubXUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B4B77EE1652168007BCF49C /* Pods-AHSClubX-AHSClubXUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX-AHSClubXUITests.debug.xcconfig"; path = "Target Support Files/Pods-AHSClubX-AHSClubXUITests/Pods-AHSClubX-AHSClubXUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A448BCAD267FAAF205E82895 /* Pods-AHSClubX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AHSClubX.release.xcconfig"; path = "Target Support Files/Pods-AHSClubX/Pods-AHSClubX.release.xcconfig"; sourceTree = "<group>"; };
 		A5CC113C256477E000872D39 /* AHSClubX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHSClubX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CC113F256477E000872D39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5CC1141256477E000872D39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A5CC1143256477E000872D39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5CC1143256477E000872D39 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A5CC1146256477E000872D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A5CC1148256477E000872D39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5CC114B256477E000872D39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -130,8 +132,9 @@
 			children = (
 				A5CC113F256477E000872D39 /* AppDelegate.swift */,
 				A5CC1141256477E000872D39 /* SceneDelegate.swift */,
-				A5CC1143256477E000872D39 /* ViewController.swift */,
+				A5CC1143256477E000872D39 /* LoginVC.swift */,
 				A5CC1145256477E000872D39 /* Main.storyboard */,
+				901EF85C25748C120025C4D1 /* CalendarViewController.swift */,
 				A5CC1148256477E000872D39 /* Assets.xcassets */,
 				A5CC114A256477E000872D39 /* LaunchScreen.storyboard */,
 				A5CC114D256477E000872D39 /* Info.plist */,
@@ -168,7 +171,6 @@
 				D0617A7EB066C857C9FF2ED0 /* Pods-AHSClubXTests.debug.xcconfig */,
 				1BFF5FF903659AB041863724 /* Pods-AHSClubXTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -447,7 +449,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CC1144256477E000872D39 /* ViewController.swift in Sources */,
+				901EF85D25748C120025C4D1 /* CalendarViewController.swift in Sources */,
+				A5CC1144256477E000872D39 /* LoginVC.swift in Sources */,
 				A5CC1140256477E000872D39 /* AppDelegate.swift in Sources */,
 				A5CC1142256477E000872D39 /* SceneDelegate.swift in Sources */,
 			);

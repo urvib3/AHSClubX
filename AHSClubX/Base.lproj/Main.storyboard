@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oYa-KG-woD">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--LoginVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginVC" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoginVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -21,33 +22,8 @@
                             <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iDJ-Bc-8ku">
                                 <rect key="frame" x="0.0" y="538" width="414" height="198"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWa-ii-5oh">
-                                        <rect key="frame" x="8" y="84" width="94" height="30"/>
-                                        <color key="backgroundColor" red="0.3389858603477478" green="0.41004461050033569" blue="0.4669111967086792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <color key="tintColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Sign out">
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="didTapSignOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RKN-9W-SNH"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8OM-kI-dga">
-                                        <rect key="frame" x="312" y="84" width="94" height="30"/>
-                                        <color key="backgroundColor" red="0.3389858603477478" green="0.41004461050033569" blue="0.4669111967086792" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="94" id="M3m-1M-ArK"/>
-                                        </constraints>
-                                        <color key="tintColor" red="1" green="0.99997437000274658" blue="0.99999129772186279" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <state key="normal" title="Disconnect">
-                                            <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="didTapDisconnect:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IY0-iR-fbZ"/>
-                                        </connections>
-                                    </button>
                                     <view contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="XGN-Qm-TJZ" customClass="GIDSignInButton">
-                                        <rect key="frame" x="127" y="75" width="160" height="49"/>
+                                        <rect key="frame" x="127" y="74.5" width="160" height="49"/>
                                         <color key="backgroundColor" red="0.66666668653488159" green="0.66666668653488159" blue="0.66666668653488159" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="XGN-Qm-TJZ" secondAttribute="height" multiplier="160:49" id="CS8-w7-K8r"/>
@@ -59,13 +35,7 @@
                                 <constraints>
                                     <constraint firstAttribute="centerX" secondItem="XGN-Qm-TJZ" secondAttribute="centerX" id="126-I0-Kav"/>
                                     <constraint firstAttribute="centerY" secondItem="XGN-Qm-TJZ" secondAttribute="centerY" id="CCQ-04-kET"/>
-                                    <constraint firstAttribute="centerY" secondItem="eWa-ii-5oh" secondAttribute="centerY" id="No9-sv-fFi"/>
-                                    <constraint firstItem="eWa-ii-5oh" firstAttribute="width" secondItem="8OM-kI-dga" secondAttribute="width" id="QZp-1d-5hJ"/>
-                                    <constraint firstAttribute="trailing" secondItem="8OM-kI-dga" secondAttribute="trailing" constant="8" id="gVN-7n-RSp"/>
-                                    <constraint firstAttribute="centerY" secondItem="8OM-kI-dga" secondAttribute="centerY" id="ld2-2U-vSw"/>
                                     <constraint firstAttribute="height" constant="198" id="lym-7g-lbo"/>
-                                    <constraint firstItem="eWa-ii-5oh" firstAttribute="height" secondItem="8OM-kI-dga" secondAttribute="height" id="uwp-Yn-EHu"/>
-                                    <constraint firstItem="eWa-ii-5oh" firstAttribute="leading" secondItem="iDJ-Bc-8ku" secondAttribute="leading" constant="8" id="xAS-NZ-gvx"/>
                                 </constraints>
                             </view>
                             <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" misplaced="YES" image="appbg.png" translatesAutoresizingMaskIntoConstraints="NO" id="I8v-V0-Tis">
@@ -110,19 +80,82 @@
                             </mask>
                         </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="PQu-oS-mIR"/>
                     <connections>
-                        <outlet property="disconnectButton" destination="8OM-kI-dga" id="ypn-v6-CMD"/>
                         <outlet property="signInButton" destination="XGN-Qm-TJZ" id="jID-uf-sE9"/>
-                        <outlet property="signOutButton" destination="eWa-ii-5oh" id="IKO-uH-Mpe"/>
                         <outlet property="statusText" destination="BJZ-79-K2W" id="jy7-sW-84S"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="457" y="575"/>
+            <point key="canvasLocation" x="1366.6666666666667" y="574.55357142857144"/>
+        </scene>
+        <!--Calendar View Controller-->
+        <scene sceneID="HAO-N5-6kQ">
+            <objects>
+                <viewController storyboardIdentifier="CalendarViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tqg-2x-i3I" customClass="CalendarViewController" customModule="AHSClubX" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="SjG-yx-dv6"/>
+                        <viewControllerLayoutGuide type="bottom" id="dSh-aI-aqp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8Cb-Ff-JDd" customClass="CalendarViewController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFT-cg-tT8">
+                                <rect key="frame" x="60" y="636" width="94" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.3389858603" green="0.41004461050000002" blue="0.46691119669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Sign out">
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapSignOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LDs-Jp-UiP"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="signOutToLoginPage" id="tYz-xU-Rj1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcW-r6-6ea">
+                                <rect key="frame" x="166" y="305" width="69" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="268-lK-Nub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2203" y="575"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V77-Kc-OJ3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oYa-KG-woD" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2km-WV-agd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kPR-5h-deU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kHR-Bs-VNX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.52173913043481" y="574.55357142857144"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="tYz-xU-Rj1"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="appbg.png" width="144" height="144"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>
