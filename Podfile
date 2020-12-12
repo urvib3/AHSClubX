@@ -18,4 +18,4 @@ target 'AHSClubX' do
 
 end
 
-pod 'GoogleSignIn'
+pod 'GoogleSignIn', '~>5.0.0'

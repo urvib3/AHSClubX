@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="oYa-KG-woD">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -80,7 +79,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="PQu-oS-mIR"/>
+                    <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="signInButton" destination="XGN-Qm-TJZ" id="jID-uf-sE9"/>
                         <outlet property="statusText" destination="BJZ-79-K2W" id="jy7-sW-84S"/>
@@ -90,10 +89,10 @@
             </objects>
             <point key="canvasLocation" x="1366.6666666666667" y="574.55357142857144"/>
         </scene>
-        <!--Calendar View Controller-->
+        <!--Calendar-->
         <scene sceneID="HAO-N5-6kQ">
             <objects>
-                <viewController storyboardIdentifier="CalendarViewController" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tqg-2x-i3I" customClass="CalendarViewController" customModule="AHSClubX" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalendarViewController" modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="tqg-2x-i3I" customClass="CalendarViewController" customModule="AHSClubX" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SjG-yx-dv6"/>
                         <viewControllerLayoutGuide type="bottom" id="dSh-aI-aqp"/>
@@ -102,19 +101,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jFT-cg-tT8">
-                                <rect key="frame" x="60" y="636" width="94" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.3389858603" green="0.41004461050000002" blue="0.46691119669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <color key="tintColor" red="1" green="0.99997437" blue="0.99999129769999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Sign out">
-                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="didTapSignOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LDs-Jp-UiP"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" identifier="signOutToLoginPage" id="tYz-xU-Rj1"/>
-                                </connections>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Calendar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dcW-r6-6ea">
                                 <rect key="frame" x="166" y="305" width="69" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -123,39 +109,84 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.81234492719999996" green="1" blue="0.89365616319999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Calendar" id="9wJ-do-O65">
+                        <barButtonItem key="leftBarButtonItem" title="Sign out" id="ytb-xu-vSU">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" identifier="signOutToLoginPage" id="6L0-u8-3h8"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="VuJ-yZ-rQa">
+                            <connections>
+                                <segue destination="IJr-t6-oEF" kind="popoverPresentation" popoverAnchorBarButtonItem="VuJ-yZ-rQa" id="ynb-Qz-Rye">
+                                    <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                </segue>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <nil key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="268-lK-Nub" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2203" y="575"/>
+            <point key="canvasLocation" x="3113.04347826087" y="574.55357142857144"/>
+        </scene>
+        <!--Event View Controller-->
+        <scene sceneID="VZe-GA-9Jr">
+            <objects>
+                <viewController id="IJr-t6-oEF" customClass="EventViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="s5y-Co-TrO"/>
+                        <viewControllerLayoutGuide type="bottom" id="mW7-Qi-gNB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pl1-53-4dH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0gq-ND-2BZ">
+                                <rect key="frame" x="48" y="266" width="319" height="265"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Event name" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ay8-Vo-Onf">
+                                        <rect key="frame" x="111" y="22" width="97" height="34"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="1" blue="0.93852709000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FvI-ah-18i"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="By8-0v-nFb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3989.8550724637685" y="574.55357142857144"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="V77-Kc-OJ3">
+        <scene sceneID="0q8-ar-LeK">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oYa-KG-woD" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="NCToCalendar" automaticallyAdjustsScrollViewInsets="NO" id="0zb-Bi-dlX" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2km-WV-agd">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="K4t-cF-LVd">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="kPR-5h-deU"/>
+                        <segue destination="tqg-2x-i3I" kind="relationship" relationship="rootViewController" id="WZF-UZ-eaE"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="kHR-Bs-VNX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jsx-YG-tZZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="456.52173913043481" y="574.55357142857144"/>
+            <point key="canvasLocation" x="2202.898550724638" y="574.55357142857144"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="tYz-xU-Rj1"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="appbg.png" width="144" height="144"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

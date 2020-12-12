@@ -18,11 +18,17 @@ class LoginVC: UIViewController {
   @IBOutlet weak var signInButton: GIDSignInButton!
   @IBOutlet weak var statusText: UILabel!
   // [END viewcontroller_vars]
+    
+    override func viewDidAppear(_ animated: Bool) {
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+    }
 
   // [START viewdidload]
-  override func viewDidLoad() {
+    override func viewDidLoad() {
     super.viewDidLoad()
-
+   
+    self.navigationController?.setNavigationBarHidden(true, animated: true)
+    
     GIDSignIn.sharedInstance()?.presentingViewController = self
 
     // Automatically sign in the user.
@@ -68,7 +74,8 @@ class LoginVC: UIViewController {
     if let _ = GIDSignIn.sharedInstance()?.currentUser?.authentication {
       // Signed in
       let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      let vc = storyboard.instantiateViewController(withIdentifier: "CalendarViewController")
+      let vc = storyboard.instantiateViewController(withIdentifier: "NCToCalendar")
+      vc.modalPresentationStyle = .fullScreen
       self.present(vc, animated: false, completion: nil)
         
     } else {
