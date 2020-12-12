@@ -18,7 +18,7 @@ PODS:
     - GTMSessionFetcher/Core (= 1.5.0)
 
 DEPENDENCIES:
-  - GoogleSignIn
+  - GoogleSignIn (~> 5.0.0)
 
 SPEC REPOS:
   trunk:
@@ -33,6 +33,6 @@ SPEC CHECKSUMS:
   GTMAppAuth: 197a8dabfea5d665224aa00d17f164fc2248dab9
   GTMSessionFetcher: b3503b20a988c4e20cc189aa798fd18220133f52
 
-PODFILE CHECKSUM: abef656d5b4fee3a2608196e43538c0bb84b706e
+PODFILE CHECKSUM: 3b882e21336462c89606c6cab82dfacbe04204a9
 
 COCOAPODS: 1.10.0
