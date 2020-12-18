@@ -30,4 +30,19 @@ class AHSClubXTests: XCTestCase {
         }
     }
 
+    //MARK: Event Class Tests
+     // Confirm that Event init returns Event object when passed valid parameters
+    func testEventInitializationSucceeds() {
+        let event1 = Event.init(name: "pizza", club: "Dominoes", link: nil, type: 1)
+         XCTAssertNotNil(event1)
+    }
+    
+    func testEventInitializationFails() {
+        let event2 = Event.init(name: "", club: "Dominoes", link: nil, type: 1)
+         XCTAssertNil(event2)
+        
+        let event3 = Event.init(name: "", club: "Dominoes", link: nil, type: 0)
+         XCTAssertNil(event3)
+        
+    }
 }

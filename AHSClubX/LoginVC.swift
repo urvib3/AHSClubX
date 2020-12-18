@@ -34,8 +34,8 @@ class LoginVC: UIViewController {
     // Automatically sign in the user.
     GIDSignIn.sharedInstance()?.restorePreviousSignIn()
 
-    // Setup allowing CalendarVC to access buttons
-    NotificationCenter.default.addObserver(self, selector: #selector(prepFromCalendar), name: NSNotification.Name(rawValue: "prepFromCalendar"), object: nil)
+    /*// Setup allowing CalendarVC to access buttons
+    NotificationCenter.default.addObserver(self, selector: #selector(prepFromCalendar), name: NSNotification.Name(rawValue: "prepFromCalendar"), object: nil)*/
 
     
     // [START_EXCLUDE]
@@ -74,9 +74,10 @@ class LoginVC: UIViewController {
     if let _ = GIDSignIn.sharedInstance()?.currentUser?.authentication {
       // Signed in
       let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      let vc = storyboard.instantiateViewController(withIdentifier: "NCToCalendar")
+      let vc = storyboard.instantiateViewController(withIdentifier: "HomeTBC")
       vc.modalPresentationStyle = .fullScreen
-      self.present(vc, animated: false, completion: nil)
+        self.view.window?.rootViewController?.present(vc, animated: true, completion: nil)
+      //self.present(vc, animated: false, completion: nil)
         
     } else {
       // Signed out
