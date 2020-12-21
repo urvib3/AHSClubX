@@ -18,4 +18,11 @@ target 'AHSClubX' do
 
 end
 
+pod 'Google/Analytics'
 pod 'GoogleSignIn', '~>5.0.0'
+pod 'Firebase', '>= 2.5.1'
+pod ‘Firebase/Auth’
+pod ‘Firebase/Database’
+pod 'Firebase/Storage'
+pod 'FBLPromises'
+pod 'GTMAppAuth'
