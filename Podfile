@@ -16,8 +16,16 @@ target 'AHSClubX' do
     # Pods for testing
   end
 
+  pod 'Firebase', '>= 2.5.1'
+  pod ‘Firebase/Auth’
+  pod ‘Firebase/Database’
+  pod 'Firebase/Storage'
+  pod 'GoogleSignIn', '~>5.0.0'
+  pod 'GoogleAnalytics'
+  
 end
 
+<<<<<<< Updated upstream
 pod 'Google/Analytics'
 pod 'GoogleSignIn', '~>5.0.0'
 pod 'Firebase', '>= 2.5.1'
@@ -26,3 +34,5 @@ pod ‘Firebase/Database’
 pod 'Firebase/Storage'
 pod 'FBLPromises'
 pod 'GTMAppAuth'
+=======
+>>>>>>> Stashed changes
