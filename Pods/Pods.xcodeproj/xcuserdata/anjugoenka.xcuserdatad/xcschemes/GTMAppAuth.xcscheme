@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CAAEE969413D05A376B8B1D5C9C0745C"
-               BuildableName = "Pods-AHSClubX-AHSClubXUITests.framework"
-               BlueprintName = "Pods-AHSClubX-AHSClubXUITests"
+               BlueprintIdentifier = "8627999EF1D5E93E13DAFF580DA8CDCF"
+               BuildableName = "GTMAppAuth.framework"
+               BlueprintName = "GTMAppAuth"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
