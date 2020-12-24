@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/FIRCoreDiagnostics.m \
+  /Users/anjugoenka/Desktop/AHSClubX/DerivedData/AHSClubX/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCoreDiagnostics-framework.build/module.modulemap \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/GoogleDataTransport/GDTCORLibrary/Internal/GoogleDataTransportInternal.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GoogleDataTransport.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORClock.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORConsoleLogger.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCOREvent.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCOREventDataObject.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORTargets.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCOREventTransformer.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORLifecycle.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORPlatform.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORRegistrar.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORStorageProtocol.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORStorageEventSelector.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORUploader.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleDataTransport/GDTCORTransport.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/GoogleUtilities/Environment/Private/GULAppEnvironmentUtil.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/GoogleUtilities/Environment/Private/GULHeartbeatDateStorage.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/GoogleUtilities/Logger/Private/GULLogger.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/GoogleUtilities/GULLoggerLevel.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsData.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/Interop/CoreDiagnostics/Public/FIRCoreDiagnosticsInterop.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/nanopb/pb.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/nanopb/pb_decode.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/nanopb/pb_encode.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCoreDiagnostics/Firebase/CoreDiagnostics/FIRCDLibrary/Protogen/nanopb/firebasecore.nanopb.h

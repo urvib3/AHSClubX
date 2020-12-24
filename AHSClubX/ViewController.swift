@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleSignIn
+import Firebase
 
 // Match the ObjC symbol name inside Main.storyboard.
 @objc(ViewController)

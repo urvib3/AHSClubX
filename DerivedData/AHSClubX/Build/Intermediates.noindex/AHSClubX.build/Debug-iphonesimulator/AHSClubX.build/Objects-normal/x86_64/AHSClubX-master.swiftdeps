@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "a834febc1bb23cbe74998cff1f8e3934"
+build_time: [1608795911, 345844000]
+inputs:
+  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/ViewController.swift": [1608795906, 87965327]
+  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/AppDelegate.swift": [1608792314, 10325258]
+  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/SceneDelegate.swift": [1608762018, 168331564]

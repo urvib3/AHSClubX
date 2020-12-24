@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/FIRApp.m \
+  /Users/anjugoenka/Desktop/AHSClubX/DerivedData/AHSClubX/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/FirebaseCore-framework.build/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/FIRAnalyticsConfiguration.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/FIRBundleUtil.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/FIRComponentContainerInternal.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRComponent.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRComponentContainer.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRComponentType.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRLibrary.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/FIRConfigurationInternal.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/FIRVersion.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRAppInternal.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIRApp.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRErrors.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRErrorCode.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRCoreDiagnosticsConnector.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIRLogger.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/FirebaseCore/Sources/Private/FIROptionsInternal.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIROptions.h \
+  /Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseCore/GoogleUtilities/Environment/Private/GULAppEnvironmentUtil.h
