@@ -10,9 +10,8 @@
 	<string>FirebaseCrashlytics</string>
 	<string>GameKit</string>
 	<string>FirebaseDatabase</string>
-	<string>Firebase</string>
-	<string>CoreServices</string>
 	<string>AppAuthCore</string>
+	<string>CoreServices</string>
 	<string>FirebaseFunctions</string>
 	<string>FirebaseMLVisionTextModel</string>
 	<string>FirebaseMLCommon</string>
@@ -20,6 +19,7 @@
 	<string>FirebaseMLModelInterpreter</string>
 	<string>GTMSessionFetcherCore</string>
 	<string>FirebaseMessaging</string>
+	<string>os</string>
 	<string>GoogleMobileAds</string>
 	<string>MobileCoreServices</string>
 	<string>WatchKit</string>
@@ -32,9 +32,9 @@
 	<string>AppAuth</string>
 	<string>FirebasePerformance</string>
 	<string>FirebaseMLNLTranslate</string>
+	<string>AuthenticationServices</string>
 	<string>Crashlytics</string>
 	<string>FirebaseAppDistribution</string>
-	<string>AuthenticationServices</string>
 	<string>XCTest</string>
 	<string>FirebaseMLVisionAutoML</string>
 	<string>netinet</string>

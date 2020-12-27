@@ -190,6 +190,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 @import Foundation;
 @import GoogleSignIn;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -224,6 +225,92 @@ SWIFT_CLASS("_TtC8AHSClubX11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSCoder;
+
+SWIFT_CLASS("_TtC8AHSClubX5Event")
+@interface Event : NSObject <NSCoding>
+- (void)encodeWithCoder:(NSCoder * _Nonnull)aCoder;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+@class UITextField;
+@class UISegmentedControl;
+@class UIButton;
+@class UIStoryboardSegue;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC8AHSClubX25EventEditorViewController")
+@interface EventEditorViewController : UIViewController <UINavigationControllerDelegate, UITextFieldDelegate>
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified eventNameTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified clubNameTextField;
+@property (nonatomic, weak) IBOutlet UITextField * _Null_unspecified linkTextField;
+@property (nonatomic, weak) IBOutlet UISegmentedControl * _Null_unspecified eventTypeSegmentedControl;
+@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified saveButton;
+- (void)viewDidLoad;
+- (void)textFieldDidBeginEditing:(UITextField * _Nonnull)textField;
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+- (void)textFieldDidEndEditing:(UITextField * _Nonnull)textField;
+- (IBAction)cancel:(UIButton * _Nonnull)sender;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UILabel;
+@class UIView;
+
+SWIFT_CLASS("_TtC8AHSClubX18EventTableViewCell")
+@interface EventTableViewCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified eventName;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified clubName;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified eventTypeBanner;
+- (void)awakeFromNib;
+- (void)setSelected:(BOOL)selected animated:(BOOL)animated;
+- (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UIBarButtonItem;
+@class UITableView;
+
+SWIFT_CLASS("_TtC8AHSClubX24EventTableViewController")
+@interface EventTableViewController : UITableViewController <UINavigationControllerDelegate>
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified addEventButtonItem;
+@property (nonatomic, weak) IBOutlet UIBarButtonItem * _Null_unspecified editEventButtonItem;
+- (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
+- (NSInteger)numberOfSectionsInTableView:(UITableView * _Nonnull)tableView SWIFT_WARN_UNUSED_RESULT;
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (void)tableView:(UITableView * _Nonnull)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+- (IBAction)unwindToEventListWithSender:(UIStoryboardSegue * _Nonnull)sender;
+- (IBAction)signOut:(UIBarButtonItem * _Nonnull)sender;
+- (nonnull instancetype)initWithStyle:(UITableViewStyle)style OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class GIDSignInButton;
+@class NSNotification;
+
+SWIFT_CLASS_NAMED("LoginVC")
+@interface LoginVC : UIViewController
+@property (nonatomic, weak) IBOutlet GIDSignInButton * _Null_unspecified signInButton;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified statusText;
+- (void)viewDidAppear:(BOOL)animated;
+- (void)viewDidLoad;
+- (IBAction)didTapSignOut:(id _Nonnull)sender;
+- (IBAction)didTapDisconnect:(id _Nonnull)sender;
+- (IBAction)unwindToLoginWithSender:(UIStoryboardSegue * _Nonnull)sender;
+- (void)prepFromCalendar;
+@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
+- (void)receiveToggleAuthUINotification:(NSNotification * _Nonnull)notification;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UIScene;
 @class UISceneSession;
 @class UISceneConnectionOptions;
@@ -238,28 +325,6 @@ SWIFT_CLASS("_TtC8AHSClubX13SceneDelegate")
 - (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene;
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
-@end
-
-@class GIDSignInButton;
-@class UIButton;
-@class UILabel;
-@class NSNotification;
-@class NSBundle;
-@class NSCoder;
-
-SWIFT_CLASS_NAMED("ViewController")
-@interface ViewController : UIViewController
-@property (nonatomic, weak) IBOutlet GIDSignInButton * _Null_unspecified signInButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified signOutButton;
-@property (nonatomic, weak) IBOutlet UIButton * _Null_unspecified disconnectButton;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified statusText;
-- (void)viewDidLoad;
-- (IBAction)didTapSignOut:(id _Nonnull)sender;
-- (IBAction)didTapDisconnect:(id _Nonnull)sender;
-@property (nonatomic, readonly) UIStatusBarStyle preferredStatusBarStyle;
-- (void)receiveToggleAuthUINotification:(NSNotification * _Nonnull)notification;
-- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
-- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
 #if __has_attribute(external_source_symbol)

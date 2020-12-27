@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>1FCAFC93-15EF-4094-BB71-F802E2926ED4</key>
+		<key>09F92AC5-8555-42CD-B944-E1523EB180C4</key>
 		<dict>
 			<key>className</key>
 			<string>DBGConsoleLog</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
 			<key>fileName</key>
-			<string>1FCAFC93-15EF-4094-BB71-F802E2926ED4.xcactivitylog</string>
+			<string>09F92AC5-8555-42CD-B944-E1523EB180C4.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,13 +32,421 @@
 			<key>signature</key>
 			<string>Run AHSClubX</string>
 			<key>timeStartedRecording</key>
-			<real>630485803.62896001</real>
+			<real>630745381.60433197</real>
 			<key>timeStoppedRecording</key>
-			<real>630486200.79844999</real>
+			<real>630745491.71679997</real>
 			<key>title</key>
 			<string>Run AHSClubX</string>
 			<key>uniqueIdentifier</key>
-			<string>1FCAFC93-15EF-4094-BB71-F802E2926ED4</string>
+			<string>09F92AC5-8555-42CD-B944-E1523EB180C4</string>
+		</dict>
+		<key>35B6103F-2D4C-4C34-88C5-806F299E6F9C</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>35B6103F-2D4C-4C34-88C5-806F299E6F9C.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630744120.507164</real>
+			<key>timeStoppedRecording</key>
+			<real>630744341.169765</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>35B6103F-2D4C-4C34-88C5-806F299E6F9C</string>
+		</dict>
+		<key>51A32376-2BF1-46D8-8350-B686F92745D1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>51A32376-2BF1-46D8-8350-B686F92745D1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630744099.47604001</real>
+			<key>timeStoppedRecording</key>
+			<real>630744120.35560596</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>51A32376-2BF1-46D8-8350-B686F92745D1</string>
+		</dict>
+		<key>58319AA2-58B6-4BA5-946A-53140681E40A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>58319AA2-58B6-4BA5-946A-53140681E40A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630744670.04636204</real>
+			<key>timeStoppedRecording</key>
+			<real>630744706.11678195</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>58319AA2-58B6-4BA5-946A-53140681E40A</string>
+		</dict>
+		<key>78A0B960-02F4-4E1E-BFBB-0B91D4F71746</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>78A0B960-02F4-4E1E-BFBB-0B91D4F71746.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630744018.15813005</real>
+			<key>timeStoppedRecording</key>
+			<real>630744064.40018296</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>78A0B960-02F4-4E1E-BFBB-0B91D4F71746</string>
+		</dict>
+		<key>95A970D0-9181-4D92-8B67-6FBA70EB3FF5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>95A970D0-9181-4D92-8B67-6FBA70EB3FF5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630739807.90173495</real>
+			<key>timeStoppedRecording</key>
+			<real>630741225.35383797</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>95A970D0-9181-4D92-8B67-6FBA70EB3FF5</string>
+		</dict>
+		<key>984F3C8E-F6D6-4A1C-A487-FC9CC2D87500</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>984F3C8E-F6D6-4A1C-A487-FC9CC2D87500.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630744708.14491498</real>
+			<key>timeStoppedRecording</key>
+			<real>630745048.31501198</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>984F3C8E-F6D6-4A1C-A487-FC9CC2D87500</string>
+		</dict>
+		<key>A4EB7739-9D26-4EC3-8068-D4CC92190C93</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>A4EB7739-9D26-4EC3-8068-D4CC92190C93.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630745503.76568198</real>
+			<key>timeStoppedRecording</key>
+			<real>630745859.03948605</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>A4EB7739-9D26-4EC3-8068-D4CC92190C93</string>
+		</dict>
+		<key>B1EB207C-1BA5-46BF-A383-3DC0179E3EA8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B1EB207C-1BA5-46BF-A383-3DC0179E3EA8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630745050.124277</real>
+			<key>timeStoppedRecording</key>
+			<real>630745379.75022805</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>B1EB207C-1BA5-46BF-A383-3DC0179E3EA8</string>
+		</dict>
+		<key>B6A7F1F9-B77C-4937-A75C-6B5D281918D8</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>B6A7F1F9-B77C-4937-A75C-6B5D281918D8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630745925.80211306</real>
+			<key>timeStoppedRecording</key>
+			<real>630747352.84313405</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>B6A7F1F9-B77C-4937-A75C-6B5D281918D8</string>
+		</dict>
+		<key>CDC43B6B-21DB-4D02-B8AA-CADA0D3908D1</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>CDC43B6B-21DB-4D02-B8AA-CADA0D3908D1.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630744503.89695501</real>
+			<key>timeStoppedRecording</key>
+			<real>630744666.22899997</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>CDC43B6B-21DB-4D02-B8AA-CADA0D3908D1</string>
+		</dict>
+		<key>D4BC6844-4697-4FD7-8C64-6A3297D34A78</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D4BC6844-4697-4FD7-8C64-6A3297D34A78.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630747357.41397595</real>
+			<key>timeStoppedRecording</key>
+			<real>630747706.28937399</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>D4BC6844-4697-4FD7-8C64-6A3297D34A78</string>
+		</dict>
+		<key>DD3CA12F-C336-4BCA-9F77-74C7865B1977</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DD3CA12F-C336-4BCA-9F77-74C7865B1977.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>630745862.93650401</real>
+			<key>timeStoppedRecording</key>
+			<real>630745923.49663901</real>
+			<key>title</key>
+			<string>Run AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>DD3CA12F-C336-4BCA-9F77-74C7865B1977</string>
 		</dict>
 	</dict>
 </dict>

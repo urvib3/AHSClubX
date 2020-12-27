@@ -74,7 +74,7 @@ class LoginVC: UIViewController {
     if let _ = GIDSignIn.sharedInstance()?.currentUser?.authentication {
       // Signed in
       let storyboard = UIStoryboard(name: "Main", bundle: nil)
-      let vc = storyboard.instantiateViewController(withIdentifier: "NCToCalendar")
+      let vc = storyboard.instantiateViewController(withIdentifier: "TabBarController")
       vc.modalPresentationStyle = .fullScreen
       self.present(vc, animated: false, completion: nil)
         
@@ -83,6 +83,15 @@ class LoginVC: UIViewController {
     }
   }
   // [END toggle_auth]
+    
+  //MARK: Navigation
+    
+    @IBAction func unwindToLogin(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? EventTableViewController {
+            
+            GIDSignIn.sharedInstance()?.signOut()
+        }
+    }
     
   @objc func prepFromCalendar() {
     print("Received Notification")
