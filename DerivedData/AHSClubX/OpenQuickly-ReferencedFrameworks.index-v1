@@ -10,8 +10,9 @@
 	<string>FirebaseCrashlytics</string>
 	<string>GameKit</string>
 	<string>FirebaseDatabase</string>
-	<string>AppAuthCore</string>
+	<string>Firebase</string>
 	<string>CoreServices</string>
+	<string>AppAuthCore</string>
 	<string>FirebaseFunctions</string>
 	<string>FirebaseMLVisionTextModel</string>
 	<string>FirebaseMLCommon</string>
@@ -35,16 +36,16 @@
 	<string>AuthenticationServices</string>
 	<string>Crashlytics</string>
 	<string>FirebaseAppDistribution</string>
-	<string>XCTest</string>
 	<string>FirebaseMLVisionAutoML</string>
+	<string>XCTest</string>
 	<string>netinet</string>
-	<string>FirebaseInstallations</string>
 	<string>GoogleDataTransport</string>
+	<string>FirebaseMLNLSmartReply</string>
 	<string>CommonCrypto</string>
 	<string>GoogleUtilities</string>
-	<string>FirebaseMLNLSmartReply</string>
 	<string>FirebaseRemoteConfig</string>
 	<string>GoogleSignIn</string>
+	<string>FirebaseInstallations</string>
 	<string>unicode</string>
 	<string>FirebaseMLVision</string>
 	<string>GTMSessionFetcher</string>

@@ -18,7 +18,7 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		r1iyeE6TqgsNBJC2HnNrpCtnHKg=
+		AwgAIl+7UkgfTdN1bydhu2n6Y34=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -26,15 +26,15 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		/WfyBjzzl8BTMrigZWgr79t5Sjo=
+		h07M0bpE1i6l0vco4dl1lc4VLq0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		4rlgx5/xKnlcBkJtGUhGtEz1sjw=
+		8++QAfhaTmJ6CcMEbvNmUaOfwoc=
 		</data>
 		<key>Base.lproj/Main.storyboardc/EventTableViewController.nib</key>
 		<data>
-		JR6aOL1xNiTMWHhFQ8RZS2ibr1Q=
+		7uuPX2TjwP3XQ44EiZms6w/c3mI=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -42,39 +42,39 @@
 		</data>
 		<key>Base.lproj/Main.storyboardc/NavigationControllerToCalendar.nib</key>
 		<data>
-		EUDbhPZ2FA5YWlQThgicwKZfkTE=
+		oTJdP9M9ChVSC9dSnmjKXvGhk+4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/TabBarController.nib</key>
 		<data>
-		PtszLCFpZ3alQ95USrzqICT2yZU=
+		rZ2e1bO5j4ysVUeJ0dj7lY8cx2A=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<data>
-		np8RZ56Y07Mhf8af7VOdXEFNAjk=
+		D0V+I9qTpvouyOFSNpFUTFOJoMw=
 		</data>
 		<key>Base.lproj/Main.storyboardc/UIViewController-V9d-bc-qhc.nib</key>
 		<data>
-		jGLzT6LRasBeiypSscdA+gJV12w=
+		WCBm1DZUjgbSOZtIW/oc/9HXl4g=
 		</data>
 		<key>Base.lproj/Main.storyboardc/V9d-bc-qhc-view-Npc-XT-HjQ.nib</key>
 		<data>
-		GIVa0cjcVR0BVNwqBWf6ZyrRrMk=
+		bf7rFLe/UeWTevYBj/Tzr5AZCw4=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Vj6-S9-S4V-view-Ujx-8O-1Ol.nib</key>
 		<data>
-		D6Qxqx3DI3P4w10uVE7cNM8c2As=
+		lahXYYzHUMLpi/omH0Hoymj/bJ0=
 		</data>
 		<key>Base.lproj/Main.storyboardc/eXP-gA-GH3-view-3Jo-oh-bfc.nib</key>
 		<data>
-		JlF3fwgu8YVnBaZaPKGf9y9bvrU=
+		G3TYilRxDGbkEght77Ydd9k1Tbs=
 		</data>
 		<key>Base.lproj/Main.storyboardc/oqf-cZ-Uak-view-BPZ-8J-kfY.nib</key>
 		<data>
-		fS8kDcWwxpKfgiwd0ATY1TtOzJE=
+		k1qAmJDt4gElg2Z8AwHSHv5Q3nI=
 		</data>
 		<key>Frameworks/AppAuth.framework/AppAuth</key>
 		<data>
-		wouEbOGeBThvQRoa98+beeqOiHI=
+		qlAIYCK4zFgedOgKiMApFq9P6c0=
 		</data>
 		<key>Frameworks/AppAuth.framework/Info.plist</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Frameworks/FBLPromises.framework/FBLPromises</key>
 		<data>
-		/+XardvdQL1IEDDm5Ndll9CZRC4=
+		GwcKyaIcT9hCOb/xaZjHPZV1nk0=
 		</data>
 		<key>Frameworks/FBLPromises.framework/Info.plist</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Frameworks/GTMAppAuth.framework/GTMAppAuth</key>
 		<data>
-		TKesOEAmBaylzLUdj9m9OEm7Kzk=
+		s5ppgCyoXkLwJ/Y5jclPxLGmBmI=
 		</data>
 		<key>Frameworks/GTMAppAuth.framework/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/GTMSessionFetcher</key>
 		<data>
-		iIsqHtxHrYrfk5aZGgSMWtehogs=
+		5srO8Zd/gGltFyLOktVVt0mv43w=
 		</data>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
 		<data>
@@ -122,7 +122,7 @@
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/GoogleUtilities</key>
 		<data>
-		7h1rE9MjXr0HrguDLn2zHSaiP7I=
+		zcArQBOqQpyA/gy/9ldGtT2cTEQ=
 		</data>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
 		<data>
@@ -142,7 +142,7 @@
 		</data>
 		<key>Frameworks/leveldb.framework/leveldb</key>
 		<data>
-		bYUUuVoTqfPMq4ow2trU6ZGyTgU=
+		NVs8+/pvBTcyEuRQVIvWGoruf7k=
 		</data>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
 		<data>
@@ -154,7 +154,11 @@
 		</data>
 		<key>Frameworks/nanopb.framework/nanopb</key>
 		<data>
-		TdD0oN34aRnCKvmYvqs38uQ276o=
+		wnNsmz4ENSqfbw7KbBBSn4CaKTA=
+		</data>
+		<key>GoogleService-Info.plist</key>
+		<data>
+		Hk4yVTa9uuKcFEKcROOSbIOKosU=
 		</data>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<data>
@@ -520,15 +524,11 @@
 		</dict>
 		<key>Info.plist</key>
 		<data>
-		fH15NAew65VUhs0oyC3G5zELbOo=
+		iMzKm3Xm8QjEswXNHD3bUYOFESQ=
 		</data>
 		<key>PkgInfo</key>
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
-		</data>
-		<key>credentials (1).plist</key>
-		<data>
-		/Uoe4+Wk8nu5cSe7sccrdYi1HDQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -558,7 +558,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jW3kjCSAL1AJWJsFC5EWEdYZPEPOe3Glf6Y6s769uBo=
+			t7mHY6nCs06KcK1L8f3DS3D7KsNrx3pYjowmmtqEuu4=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -572,21 +572,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			swueawjrGIx3tG0U5k/kwOQejUHOAYYgdp0BmKES4Tw=
+			4DbrJqv+OaoaqAAbzIyZw+kQ7bAPOLls+6QW8QsgP6g=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3r8CgOO4LfoAaFt3ykbfBcfLbhqK+YptT64hEQGaJpo=
+			L29X7W+nMJGudNqRitplq4r/b3IiPBteyM8jbnWyWrw=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/EventTableViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			A+c3ZXb74Swhm5LI/wZZeEDktCkscXmMnWfZ91j8Au4=
+			s9DgzXz4eJ0bXIRTESHLopK6KKtslKgzPb/zbwlZrDs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -600,63 +600,63 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qZ6xr9ZbLdRra/9ziEAVql0lX/NkPWFgoSifFzGIaLo=
+			V+uHF0ETBGALBy+19tuxr2+ZxerLiLTl0BY0YVr59T0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/TabBarController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vwhzoAknlBC6A/LdL716iF1CIGfxqUBzls9SltTjvI4=
+			LR6LNcTOyhizUXsxY7+ONlQzSbvXWw9zzV5AQv4Fzmg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LX8Y/hw136gYPd8dSXAMJoKho0gfxLbBANTtNmwTCgc=
+			pubHhd/u/DNxd+sd0vnISnCA+3lCTuUwlDFeWddfng0=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/UIViewController-V9d-bc-qhc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Ul8Cy/qVa6pfuQABqr9XIVj/KvdLzM2J8j23DfqcLk=
+			3dpaKAAPn5+gkWF9nKFZvdMoSCPjEA8Mgul9dJ4+jFs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/V9d-bc-qhc-view-Npc-XT-HjQ.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RcdaA4xAIV1e5mMSHpSXDaKChrjiJkJG3HONHlTtXTU=
+			AU7taiFYYNp1q3NTbodelh+480b8drma1HI5WCuZihs=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Vj6-S9-S4V-view-Ujx-8O-1Ol.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ua09HyNlT31JVBPqxdTCeenoA0OLAqy/Fg0xQ04gYMg=
+			g5e1S4InjcGOVrDOEOvN6WmWcuGjVD2EBSmXY+c+/vM=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/eXP-gA-GH3-view-3Jo-oh-bfc.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JSFOjt4DyOdiQ4XRZIzNKNOe8rNY2tGriGdvTS0G/us=
+			k02GySlpwvBlT66ThFuXyTA3VYNM8lENfuVgNkNKmVg=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/oqf-cZ-Uak-view-BPZ-8J-kfY.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbtchtaqP7x7JUc048zO/p+dx+pp9L/yneQFQNLBxLE=
+			VOB3FU+WpovBTziHx3C4ytDB472RuwINItsBJc1v6rs=
 			</data>
 		</dict>
 		<key>Frameworks/AppAuth.framework/AppAuth</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uotv5A+BIxI8aior266LuJfe7zS5mUQvw7QWDUIb46M=
+			RzM9VtsAukNTB4hClC2RT+I6KXOKRT/j9cb1Nsi/Vb0=
 			</data>
 		</dict>
 		<key>Frameworks/AppAuth.framework/Info.plist</key>
@@ -677,7 +677,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			nVZ7na3ghgCqhMNOnEODB8CT+j05c7cUOi8OasL3zt8=
+			ojem1q4/uoVZKZqRZrDcacVOX+lWIIGiuyQxZ5mw7Xc=
 			</data>
 		</dict>
 		<key>Frameworks/FBLPromises.framework/Info.plist</key>
@@ -698,7 +698,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rn/UCy2Nb530Sf4Ne/7Dmu68rNsRioyQhK67vHzh/Sg=
+			bfXXaOpMwDM7PlNbVTyPxZxqoVhXHnIdLg/nYAQnvsE=
 			</data>
 		</dict>
 		<key>Frameworks/GTMAppAuth.framework/Info.plist</key>
@@ -719,7 +719,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TDY3j3gOFZfPpM0NVav/23BsW4a+32OZ9FjZeB34+js=
+			YfeucZ7Fa+OVqB6BZslC+Wsug+Et5MCnrk2/x3LuTno=
 			</data>
 		</dict>
 		<key>Frameworks/GTMSessionFetcher.framework/Info.plist</key>
@@ -740,7 +740,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cPgaqgTXaTCRQAJKTeIB4imBGk72Rd5j5mjMOcyEqZQ=
+			v6TgIASq/T7mVTqyYhxpY1mYtoF/r+nc0BX5F3y9o8A=
 			</data>
 		</dict>
 		<key>Frameworks/GoogleUtilities.framework/Info.plist</key>
@@ -775,7 +775,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LcmrNvhQ3BRa6sRx2lkNciGW3AfpkAjvwR9xq21gkOM=
+			CvlgGr8xxFc2nHvICLyug4zesCN0kg1EHqGbubg8sjU=
 			</data>
 		</dict>
 		<key>Frameworks/nanopb.framework/Info.plist</key>
@@ -796,7 +796,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			erQ+55vh2sMopTFI0dt9nxqLrlPl9P6FZ46U1yyeTOQ=
+			n1fVZf9hEpao6NrTMFdWZBrpgc8JB64ul/r6Jv8tJtg=
+			</data>
+		</dict>
+		<key>GoogleService-Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Zbn22ZVsid1mb1U72QOXN2pN6wSlKDam/BFaqyRwi7w=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/Info.plist</key>
@@ -1175,13 +1182,6 @@
 			</data>
 			<key>optional</key>
 			<true/>
-		</dict>
-		<key>credentials (1).plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b3PRegCDdYTUcFMoJ0T2jsA1JY7666KOBdDZ4dSd61U=
-			</data>
 		</dict>
 	</dict>
 	<key>rules</key>

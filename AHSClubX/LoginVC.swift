@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleSignIn
+import Firebase
 
 // Match the ObjC symbol name inside Main.storyboard.
 @objc(LoginVC)
@@ -29,11 +30,10 @@ class LoginVC: UIViewController {
    
     self.navigationController?.setNavigationBarHidden(true, animated: true)
     
+        
     GIDSignIn.sharedInstance()?.presentingViewController = self
-
-    // Automatically sign in the user.
-    GIDSignIn.sharedInstance()?.restorePreviousSignIn()
-
+    GIDSignIn.sharedInstance().signIn()
+        
     // Setup allowing CalendarVC to access buttons
     NotificationCenter.default.addObserver(self, selector: #selector(prepFromCalendar), name: NSNotification.Name(rawValue: "prepFromCalendar"), object: nil)
 
@@ -49,16 +49,6 @@ class LoginVC: UIViewController {
     // [END_EXCLUDE]
   }
   // [END viewdidload]
-
-  // [START signout_tapped]
-  @IBAction func didTapSignOut(_ sender: AnyObject) {
-    GIDSignIn.sharedInstance().signOut()
-    // [START_EXCLUDE silent]
-    statusText.text = "Signed out."
-    toggleAuthUI()
-    // [END_EXCLUDE]
-  }
-  // [END signout_tapped]
 
   // [START disconnect_tapped]
   @IBAction func didTapDisconnect(_ sender: AnyObject) {
@@ -90,6 +80,13 @@ class LoginVC: UIViewController {
         if let sourceViewController = sender.source as? EventTableViewController {
             
             GIDSignIn.sharedInstance()?.signOut()
+            
+            let firebaseAuth = Auth.auth()
+            do {
+              try firebaseAuth.signOut()
+            } catch let signOutError as NSError {
+              print ("Error signing out: %@", signOutError)
+            }
         }
     }
     

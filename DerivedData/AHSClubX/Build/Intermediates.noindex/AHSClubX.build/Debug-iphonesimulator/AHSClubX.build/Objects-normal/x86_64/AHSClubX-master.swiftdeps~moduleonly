@@ -1,11 +1,11 @@
 version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
 options: "a834febc1bb23cbe74998cff1f8e3934"
-build_time: [1609054906, 660178000]
+build_time: [1609482238, 229506000]
 inputs:
   "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/EventHandler/EventEditorViewController.swift": [1609051212, 194812088]
-  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/AppDelegate.swift": [1608880092, 13506138]
-  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/LoginVC.swift": [1609053123, 500366619]
+  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/AppDelegate.swift": [1609481687, 528977279]
+  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/LoginVC.swift": [1609442430, 746092997]
   "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/EventHandler/EventTableViewCell.swift": [1609051212, 143917937]
-  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/EventHandler/EventTableViewController.swift": [1609054906, 236641786]
+  "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/EventHandler/EventTableViewController.swift": [1609399449, 783781993]
   "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/EventHandler/Event.swift": [1609051212, 174774692]
   "/Users/anjugoenka/Desktop/AHSClubX/AHSClubX/SceneDelegate.swift": [1608880092, 33861429]

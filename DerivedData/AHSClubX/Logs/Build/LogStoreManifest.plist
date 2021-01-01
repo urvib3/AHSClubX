@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>097A211E-279D-4985-97AA-22E3C03BBA6D</key>
+		<key>329D50C2-FCE4-4A1A-B24C-BB991A76A22D</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,7 +15,109 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>097A211E-279D-4985-97AA-22E3C03BBA6D.xcactivitylog</string>
+			<string>329D50C2-FCE4-4A1A-B24C-BB991A76A22D.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>631174932.33425999</real>
+			<key>timeStoppedRecording</key>
+			<real>631174955.57015395</real>
+			<key>title</key>
+			<string>Build AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>329D50C2-FCE4-4A1A-B24C-BB991A76A22D</string>
+		</dict>
+		<key>7EC7C5AC-DED9-445B-8B6D-9FD111B01515</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>7EC7C5AC-DED9-445B-8B6D-9FD111B01515.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>631175016.41514003</real>
+			<key>timeStoppedRecording</key>
+			<real>631175025.50722206</real>
+			<key>title</key>
+			<string>Build AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>7EC7C5AC-DED9-445B-8B6D-9FD111B01515</string>
+		</dict>
+		<key>9415E641-39DB-4D77-A6F7-F96F64BE9B94</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9415E641-39DB-4D77-A6F7-F96F64BE9B94.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>AHSClubX project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>AHSClubX</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Clean AHSClubX</string>
+			<key>timeStartedRecording</key>
+			<real>631175014.90959501</real>
+			<key>timeStoppedRecording</key>
+			<real>631175015.50806797</real>
+			<key>title</key>
+			<string>Clean AHSClubX</string>
+			<key>uniqueIdentifier</key>
+			<string>9415E641-39DB-4D77-A6F7-F96F64BE9B94</string>
+		</dict>
+		<key>D14766E5-37DD-4647-9DD6-B86A79340DC5</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D14766E5-37DD-4647-9DD6-B86A79340DC5.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -32,15 +134,15 @@
 			<key>signature</key>
 			<string>Build AHSClubX</string>
 			<key>timeStartedRecording</key>
-			<real>630744341.14077902</real>
+			<real>631174634.80655503</real>
 			<key>timeStoppedRecording</key>
-			<real>630744346.24882495</real>
+			<real>631174636.26573098</real>
 			<key>title</key>
 			<string>Build AHSClubX</string>
 			<key>uniqueIdentifier</key>
-			<string>097A211E-279D-4985-97AA-22E3C03BBA6D</string>
+			<string>D14766E5-37DD-4647-9DD6-B86A79340DC5</string>
 		</dict>
-		<key>2A5D3675-DBDA-4AC5-A594-15E882D18544</key>
+		<key>EFC79660-334B-4AF6-AF95-918AC4081154</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -49,41 +151,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>2A5D3675-DBDA-4AC5-A594-15E882D18544.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630743814.91162097</real>
-			<key>timeStoppedRecording</key>
-			<real>630743815.93659198</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>2A5D3675-DBDA-4AC5-A594-15E882D18544</string>
-		</dict>
-		<key>40E10DE6-F40B-4FC5-9F90-3B45B0157BD8</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>40E10DE6-F40B-4FC5-9F90-3B45B0157BD8.xcactivitylog</string>
+			<string>EFC79660-334B-4AF6-AF95-918AC4081154.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -100,727 +168,13 @@
 			<key>signature</key>
 			<string>Build AHSClubX</string>
 			<key>timeStartedRecording</key>
-			<real>630745923.54819298</real>
+			<real>631175025.83633494</real>
 			<key>timeStoppedRecording</key>
-			<real>630745925.79826403</real>
+			<real>631175042.15050197</real>
 			<key>title</key>
 			<string>Build AHSClubX</string>
 			<key>uniqueIdentifier</key>
-			<string>40E10DE6-F40B-4FC5-9F90-3B45B0157BD8</string>
-		</dict>
-		<key>4EC9DC36-9F31-4629-8658-D09A3FA7D8CE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4EC9DC36-9F31-4629-8658-D09A3FA7D8CE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744456.25010097</real>
-			<key>timeStoppedRecording</key>
-			<real>630744456.83655</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>4EC9DC36-9F31-4629-8658-D09A3FA7D8CE</string>
-		</dict>
-		<key>54B35750-C769-4006-B809-657BF99DBFFD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>54B35750-C769-4006-B809-657BF99DBFFD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630745048.24477005</real>
-			<key>timeStoppedRecording</key>
-			<real>630745050.12038696</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>54B35750-C769-4006-B809-657BF99DBFFD</string>
-		</dict>
-		<key>5E7B5A7C-8588-4F7C-AE65-DEB998B094F7</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>5E7B5A7C-8588-4F7C-AE65-DEB998B094F7.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744666.20682597</real>
-			<key>timeStoppedRecording</key>
-			<real>630744670.04050696</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>5E7B5A7C-8588-4F7C-AE65-DEB998B094F7</string>
-		</dict>
-		<key>69DFFD72-4C09-4179-8186-B188F2554126</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>69DFFD72-4C09-4179-8186-B188F2554126.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630743802.58099306</real>
-			<key>timeStoppedRecording</key>
-			<real>630743803.38127601</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>69DFFD72-4C09-4179-8186-B188F2554126</string>
-		</dict>
-		<key>7923B136-EC20-43FC-9A1B-8E4AD19F5BA6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>7923B136-EC20-43FC-9A1B-8E4AD19F5BA6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630743465.58135498</real>
-			<key>timeStoppedRecording</key>
-			<real>630743484.13341904</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>7923B136-EC20-43FC-9A1B-8E4AD19F5BA6</string>
-		</dict>
-		<key>801709E2-BA96-4582-BB72-2752194A9A68</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>801709E2-BA96-4582-BB72-2752194A9A68.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630747352.86157799</real>
-			<key>timeStoppedRecording</key>
-			<real>630747357.40777898</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>801709E2-BA96-4582-BB72-2752194A9A68</string>
-		</dict>
-		<key>8477681E-2D17-47F4-A657-EB4782B0E6C2</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>8477681E-2D17-47F4-A657-EB4782B0E6C2.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744502.196123</real>
-			<key>timeStoppedRecording</key>
-			<real>630744503.89100695</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>8477681E-2D17-47F4-A657-EB4782B0E6C2</string>
-		</dict>
-		<key>94666C4A-5DBD-4C48-80F2-9C00E11B5E5B</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>94666C4A-5DBD-4C48-80F2-9C00E11B5E5B.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744425.88455403</real>
-			<key>timeStoppedRecording</key>
-			<real>630744426.49118102</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>94666C4A-5DBD-4C48-80F2-9C00E11B5E5B</string>
-		</dict>
-		<key>96CE0980-6DA5-49C3-ACEF-6BC2079866A3</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>96CE0980-6DA5-49C3-ACEF-6BC2079866A3.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630739804.04049802</real>
-			<key>timeStoppedRecording</key>
-			<real>630739807.89640796</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>96CE0980-6DA5-49C3-ACEF-6BC2079866A3</string>
-		</dict>
-		<key>9CA76DB3-2EB5-4F1F-8C2F-4C1524C021AA</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>9CA76DB3-2EB5-4F1F-8C2F-4C1524C021AA.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744012.21774399</real>
-			<key>timeStoppedRecording</key>
-			<real>630744018.15116799</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>9CA76DB3-2EB5-4F1F-8C2F-4C1524C021AA</string>
-		</dict>
-		<key>B3CEAE07-889A-4838-9DA5-9EE462E6EEF0</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B3CEAE07-889A-4838-9DA5-9EE462E6EEF0.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630743648.70641804</real>
-			<key>timeStoppedRecording</key>
-			<real>630743651.32982397</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>B3CEAE07-889A-4838-9DA5-9EE462E6EEF0</string>
-		</dict>
-		<key>B8B1C328-2899-48E8-B329-B52EC449956A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>B8B1C328-2899-48E8-B329-B52EC449956A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744120.300789</real>
-			<key>timeStoppedRecording</key>
-			<real>630744120.50113499</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>B8B1C328-2899-48E8-B329-B52EC449956A</string>
-		</dict>
-		<key>C0E73F39-E2BF-4B59-977C-B10616BBA7D5</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C0E73F39-E2BF-4B59-977C-B10616BBA7D5.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630743627.72792399</real>
-			<key>timeStoppedRecording</key>
-			<real>630743628.65426803</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>C0E73F39-E2BF-4B59-977C-B10616BBA7D5</string>
-		</dict>
-		<key>C72B151B-158C-4014-86A6-68A9A8189542</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C72B151B-158C-4014-86A6-68A9A8189542.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744409.69727004</real>
-			<key>timeStoppedRecording</key>
-			<real>630744410.12392998</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>C72B151B-158C-4014-86A6-68A9A8189542</string>
-		</dict>
-		<key>C7E6B28D-7927-41D3-B30D-8AB85CA6694D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C7E6B28D-7927-41D3-B30D-8AB85CA6694D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>E</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630745491.73444104</real>
-			<key>timeStoppedRecording</key>
-			<real>630745492.56936002</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>C7E6B28D-7927-41D3-B30D-8AB85CA6694D</string>
-		</dict>
-		<key>D2D27267-E59E-4BD2-AFBC-6527D4222748</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>D2D27267-E59E-4BD2-AFBC-6527D4222748.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630747706.26629305</real>
-			<key>timeStoppedRecording</key>
-			<real>630747709.12057805</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>D2D27267-E59E-4BD2-AFBC-6527D4222748</string>
-		</dict>
-		<key>E79F1371-4EFA-4868-8997-773A49294B00</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E79F1371-4EFA-4868-8997-773A49294B00.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744706.11032295</real>
-			<key>timeStoppedRecording</key>
-			<real>630744708.14117205</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>E79F1371-4EFA-4868-8997-773A49294B00</string>
-		</dict>
-		<key>E8CA1EC9-DF0B-4CFD-AD44-CB5B0C5571F6</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E8CA1EC9-DF0B-4CFD-AD44-CB5B0C5571F6.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630745379.72868395</real>
-			<key>timeStoppedRecording</key>
-			<real>630745381.60049295</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>E8CA1EC9-DF0B-4CFD-AD44-CB5B0C5571F6</string>
-		</dict>
-		<key>E927CD26-9E81-4445-978B-FC81D4A6E0FD</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>E927CD26-9E81-4445-978B-FC81D4A6E0FD.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630744098.30293298</real>
-			<key>timeStoppedRecording</key>
-			<real>630744099.46940696</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>E927CD26-9E81-4445-978B-FC81D4A6E0FD</string>
-		</dict>
-		<key>F1D8BF37-3500-4ADE-BBAC-B948B0F6453D</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F1D8BF37-3500-4ADE-BBAC-B948B0F6453D.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630745502.21178198</real>
-			<key>timeStoppedRecording</key>
-			<real>630745503.75989401</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>F1D8BF37-3500-4ADE-BBAC-B948B0F6453D</string>
-		</dict>
-		<key>F79D15C0-AE69-4D57-9B9B-35C71816B1FE</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>F79D15C0-AE69-4D57-9B9B-35C71816B1FE.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>AHSClubX project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>AHSClubX</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build AHSClubX</string>
-			<key>timeStartedRecording</key>
-			<real>630745859.07752597</real>
-			<key>timeStoppedRecording</key>
-			<real>630745862.93224704</real>
-			<key>title</key>
-			<string>Build AHSClubX</string>
-			<key>uniqueIdentifier</key>
-			<string>F79D15C0-AE69-4D57-9B9B-35C71816B1FE</string>
+			<string>EFC79660-334B-4AF6-AF95-918AC4081154</string>
 		</dict>
 	</dict>
 </dict>

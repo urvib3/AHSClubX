@@ -7,6 +7,7 @@
 
 import UIKit
 import GoogleSignIn
+import Firebase
 
 @UIApplicationMain
 // [START appdelegate_interfaces]
@@ -18,26 +19,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
   // [START didfinishlaunching]
   func application(_ application: UIApplication,
                    didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-    // Initialize sign-in
-    GIDSignIn.sharedInstance().clientID = "716005235665-9aqbhlnbk7j6ee5lu8m30ku6s74vpec2.apps.googleusercontent.com"
+    // Use Firebase library to configure APIs
+    FirebaseApp.configure()
+    
+    GIDSignIn.sharedInstance().clientID = FirebaseApp.app()?.options.clientID
     GIDSignIn.sharedInstance().delegate = self
 
+    
     return true
   }
   // [END didfinishlaunching]
 
   // [START openurl]
-  func application(_ application: UIApplication,
-                   open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
-    return GIDSignIn.sharedInstance().handle(url)
-  }
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        return GIDSignIn.sharedInstance().handle(url)
+    }
   // [END openurl]
 
   // [START openurl_new]
-  @available(iOS 9.0, *)
-  func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any]) -> Bool {
-    return GIDSignIn.sharedInstance().handle(url)
-  }
+    @available(iOS 9.0, *)
+    func application(_ application: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any])
+      -> Bool {
+      return GIDSignIn.sharedInstance().handle(url)
+    }
   // [END openurl_new]
 
   // [START signin_handler]
@@ -55,14 +59,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
       // [END_EXCLUDE]
       return
     }
+    
+    guard let authentication = user.authentication else { return }
+      let credential = GoogleAuthProvider.credential(withIDToken: authentication.idToken,accessToken: authentication.accessToken)
+    
+    // Authenticate with Firebase using the credential object
+    Auth.auth().signIn(with: credential) { (authResult, error) in
+        if let error = error {
+            print("authentication error \(error.localizedDescription)")
+        }
+    }
+    
     // Perform any operations on signed in user here.
-    let userId = user.userID                  // For client-side use only!
-    let idToken = user.authentication.idToken // Safe to send to the server
     let fullName = user.profile.name
-    let givenName = user.profile.givenName
-    let familyName = user.profile.familyName
-    let email = user.profile.email
-    // [START_EXCLUDE]
+    
     NotificationCenter.default.post(
       name: Notification.Name(rawValue: "ToggleAuthUINotification"),
       object: nil,

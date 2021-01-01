@@ -219,7 +219,7 @@ SWIFT_CLASS("_TtC8AHSClubX11AppDelegate")
 @property (nonatomic, strong) UIWindow * _Nullable window;
 - (BOOL)application:(UIApplication * _Nonnull)application didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> * _Nullable)launchOptions SWIFT_WARN_UNUSED_RESULT;
 - (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation SWIFT_WARN_UNUSED_RESULT;
-- (BOOL)application:(UIApplication * _Nonnull)app openURL:(NSURL * _Nonnull)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> * _Nonnull)options SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url options:(NSDictionary<UIApplicationOpenURLOptionsKey, id> * _Nonnull)options SWIFT_WARN_UNUSED_RESULT SWIFT_AVAILABILITY(ios,introduced=9.0);
 - (void)signIn:(GIDSignIn * _Null_unspecified)signIn didSignInForUser:(GIDGoogleUser * _Null_unspecified)user withError:(NSError * _Null_unspecified)error;
 - (void)signIn:(GIDSignIn * _Null_unspecified)signIn didDisconnectWithUser:(GIDGoogleUser * _Null_unspecified)user withError:(NSError * _Null_unspecified)error;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
@@ -301,7 +301,6 @@ SWIFT_CLASS_NAMED("LoginVC")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified statusText;
 - (void)viewDidAppear:(BOOL)animated;
 - (void)viewDidLoad;
-- (IBAction)didTapSignOut:(id _Nonnull)sender;
 - (IBAction)didTapDisconnect:(id _Nonnull)sender;
 - (IBAction)unwindToLoginWithSender:(UIStoryboardSegue * _Nonnull)sender;
 - (void)prepFromCalendar;

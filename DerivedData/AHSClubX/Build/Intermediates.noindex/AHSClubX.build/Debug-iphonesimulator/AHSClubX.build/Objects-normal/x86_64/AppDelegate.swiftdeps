@@ -13,16 +13,19 @@ depends-top-level:
 - !private "=="
 - "AppDelegate"
 - "AssignmentPrecedence"
+- !private "Auth"
 - "Bool"
 - !private "BooleanLiteralType"
 - "CastingPrecedence"
 - !private "Dictionary"
 - "Error"
+- !private "FirebaseApp"
 - !private "FloatLiteralType"
 - "GIDGoogleUser"
 - "GIDSignIn"
 - "GIDSignInDelegate"
 - !private "GIDSignInErrorCode"
+- !private "GoogleAuthProvider"
 - !private "IntegerLiteralType"
 - "NSError"
 - !private "Notification"
@@ -34,13 +37,16 @@ depends-top-level:
 - "UIResponder"
 - "UIWindow"
 - "URL"
-- !private "print"
+- "print"
 depends-member:
+- !private ["8AHSClubX11AppDelegateC", "Auth"]
 - ["8AHSClubX11AppDelegateC", "Bool"]
 - ["8AHSClubX11AppDelegateC", "Error"]
+- !private ["8AHSClubX11AppDelegateC", "FirebaseApp"]
 - ["8AHSClubX11AppDelegateC", "GIDGoogleUser"]
 - ["8AHSClubX11AppDelegateC", "GIDSignIn"]
 - !private ["8AHSClubX11AppDelegateC", "GIDSignInErrorCode"]
+- !private ["8AHSClubX11AppDelegateC", "GoogleAuthProvider"]
 - !private ["8AHSClubX11AppDelegateC", "NSError"]
 - !private ["8AHSClubX11AppDelegateC", "Notification"]
 - !private ["8AHSClubX11AppDelegateC", "NotificationCenter"]
@@ -67,14 +73,21 @@ depends-member:
 - ["8AHSClubX11AppDelegateC", "sign"]
 - ["8AHSClubX11AppDelegateC", "signIn"]
 - ["8AHSClubX11AppDelegateC", "window"]
+- !private ["So7FIRAuthC", "auth"]
+- !private ["So7FIRAuthC", "signIn"]
 - ["SK", ""]
+- !private ["s7CVarArgP", "Auth"]
+- !private ["s7CVarArgP", "FirebaseApp"]
 - !private ["s7CVarArgP", "GIDSignIn"]
 - !private ["s7CVarArgP", "GIDSignInErrorCode"]
+- !private ["s7CVarArgP", "GoogleAuthProvider"]
 - ["s7CVarArgP", "LaunchOptionsKey"]
 - !private ["s7CVarArgP", "Notification"]
 - !private ["s7CVarArgP", "NotificationCenter"]
 - ["s7CVarArgP", "OpenURLOptionsKey"]
 - ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "accessToken"]
+- !private ["s7CVarArgP", "app"]
 - ["s7CVarArgP", "application"]
 - ["s7CVarArgP", "applicationDidBecomeActive"]
 - ["s7CVarArgP", "applicationDidEnterBackground"]
@@ -87,35 +100,40 @@ depends-member:
 - ["s7CVarArgP", "applicationWillEnterForeground"]
 - ["s7CVarArgP", "applicationWillResignActive"]
 - ["s7CVarArgP", "applicationWillTerminate"]
+- !private ["s7CVarArgP", "auth"]
 - !private ["s7CVarArgP", "authentication"]
 - !private ["s7CVarArgP", "clientID"]
 - !private ["s7CVarArgP", "code"]
+- !private ["s7CVarArgP", "configure"]
+- !private ["s7CVarArgP", "credential"]
 - !private ["s7CVarArgP", "default"]
 - !private ["s7CVarArgP", "delegate"]
-- !private ["s7CVarArgP", "email"]
-- !private ["s7CVarArgP", "familyName"]
-- !private ["s7CVarArgP", "givenName"]
 - !private ["s7CVarArgP", "handle"]
 - !private ["s7CVarArgP", "idToken"]
 - !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "options"]
 - !private ["s7CVarArgP", "post"]
 - !private ["s7CVarArgP", "print"]
 - !private ["s7CVarArgP", "profile"]
 - !private ["s7CVarArgP", "sharedInstance"]
 - ["s7CVarArgP", "sign"]
 - ["s7CVarArgP", "signIn"]
-- !private ["s7CVarArgP", "userID"]
 - ["s7CVarArgP", "window"]
 - ["Sl", ""]
 - ["SL", ""]
+- !private ["s28CustomDebugStringConvertibleP", "Auth"]
+- !private ["s28CustomDebugStringConvertibleP", "FirebaseApp"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignIn"]
 - !private ["s28CustomDebugStringConvertibleP", "GIDSignInErrorCode"]
+- !private ["s28CustomDebugStringConvertibleP", "GoogleAuthProvider"]
 - ["s28CustomDebugStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s28CustomDebugStringConvertibleP", "Name"]
 - !private ["s28CustomDebugStringConvertibleP", "Notification"]
 - !private ["s28CustomDebugStringConvertibleP", "NotificationCenter"]
 - ["s28CustomDebugStringConvertibleP", "OpenURLOptionsKey"]
 - ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "accessToken"]
+- !private ["s28CustomDebugStringConvertibleP", "app"]
 - ["s28CustomDebugStringConvertibleP", "application"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidBecomeActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationDidEnterBackground"]
@@ -128,45 +146,45 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "applicationWillEnterForeground"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillResignActive"]
 - ["s28CustomDebugStringConvertibleP", "applicationWillTerminate"]
+- !private ["s28CustomDebugStringConvertibleP", "auth"]
 - !private ["s28CustomDebugStringConvertibleP", "authentication"]
 - !private ["s28CustomDebugStringConvertibleP", "clientID"]
 - !private ["s28CustomDebugStringConvertibleP", "code"]
+- !private ["s28CustomDebugStringConvertibleP", "configure"]
+- !private ["s28CustomDebugStringConvertibleP", "credential"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
-- !private ["s28CustomDebugStringConvertibleP", "email"]
-- !private ["s28CustomDebugStringConvertibleP", "familyName"]
-- !private ["s28CustomDebugStringConvertibleP", "givenName"]
 - !private ["s28CustomDebugStringConvertibleP", "handle"]
 - !private ["s28CustomDebugStringConvertibleP", "idToken"]
 - !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "options"]
 - !private ["s28CustomDebugStringConvertibleP", "post"]
 - !private ["s28CustomDebugStringConvertibleP", "print"]
 - !private ["s28CustomDebugStringConvertibleP", "profile"]
 - !private ["s28CustomDebugStringConvertibleP", "sharedInstance"]
 - ["s28CustomDebugStringConvertibleP", "sign"]
 - ["s28CustomDebugStringConvertibleP", "signIn"]
-- !private ["s28CustomDebugStringConvertibleP", "userID"]
 - ["s28CustomDebugStringConvertibleP", "window"]
 - !private ["s17CustomReflectableP", "Name"]
 - !private ["s17CustomReflectableP", "authentication"]
 - !private ["s17CustomReflectableP", "clientID"]
 - !private ["s17CustomReflectableP", "delegate"]
-- !private ["s17CustomReflectableP", "email"]
-- !private ["s17CustomReflectableP", "familyName"]
-- !private ["s17CustomReflectableP", "givenName"]
 - !private ["s17CustomReflectableP", "handle"]
-- !private ["s17CustomReflectableP", "idToken"]
 - !private ["s17CustomReflectableP", "name"]
 - !private ["s17CustomReflectableP", "profile"]
-- !private ["s17CustomReflectableP", "userID"]
+- !private ["s23CustomStringConvertibleP", "Auth"]
+- !private ["s23CustomStringConvertibleP", "FirebaseApp"]
 - !private ["s23CustomStringConvertibleP", "GIDSignIn"]
 - !private ["s23CustomStringConvertibleP", "GIDSignInErrorCode"]
+- !private ["s23CustomStringConvertibleP", "GoogleAuthProvider"]
 - ["s23CustomStringConvertibleP", "LaunchOptionsKey"]
 - !private ["s23CustomStringConvertibleP", "Name"]
 - !private ["s23CustomStringConvertibleP", "Notification"]
 - !private ["s23CustomStringConvertibleP", "NotificationCenter"]
 - ["s23CustomStringConvertibleP", "OpenURLOptionsKey"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "accessToken"]
+- !private ["s23CustomStringConvertibleP", "app"]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - ["s23CustomStringConvertibleP", "application"]
@@ -181,51 +199,44 @@ depends-member:
 - ["s23CustomStringConvertibleP", "applicationWillEnterForeground"]
 - ["s23CustomStringConvertibleP", "applicationWillResignActive"]
 - ["s23CustomStringConvertibleP", "applicationWillTerminate"]
+- !private ["s23CustomStringConvertibleP", "auth"]
 - !private ["s23CustomStringConvertibleP", "authentication"]
 - !private ["s23CustomStringConvertibleP", "clientID"]
 - !private ["s23CustomStringConvertibleP", "code"]
+- !private ["s23CustomStringConvertibleP", "configure"]
+- !private ["s23CustomStringConvertibleP", "credential"]
 - !private ["s23CustomStringConvertibleP", "default"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
-- !private ["s23CustomStringConvertibleP", "email"]
-- !private ["s23CustomStringConvertibleP", "familyName"]
-- !private ["s23CustomStringConvertibleP", "givenName"]
 - !private ["s23CustomStringConvertibleP", "handle"]
 - !private ["s23CustomStringConvertibleP", "idToken"]
 - !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "options"]
 - !private ["s23CustomStringConvertibleP", "post"]
 - !private ["s23CustomStringConvertibleP", "print"]
 - !private ["s23CustomStringConvertibleP", "profile"]
 - !private ["s23CustomStringConvertibleP", "sharedInstance"]
 - ["s23CustomStringConvertibleP", "sign"]
 - ["s23CustomStringConvertibleP", "signIn"]
-- !private ["s23CustomStringConvertibleP", "userID"]
 - ["s23CustomStringConvertibleP", "window"]
 - !private ["Se", "authentication"]
 - !private ["Se", "clientID"]
 - !private ["Se", "delegate"]
-- !private ["Se", "email"]
-- !private ["Se", "familyName"]
-- !private ["Se", "givenName"]
 - !private ["Se", "handle"]
-- !private ["Se", "idToken"]
 - !private ["Se", "name"]
 - !private ["Se", "profile"]
-- !private ["Se", "userID"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SE", "authentication"]
 - !private ["SE", "clientID"]
 - !private ["SE", "delegate"]
-- !private ["SE", "email"]
-- !private ["SE", "familyName"]
-- !private ["SE", "givenName"]
 - !private ["SE", "handle"]
-- !private ["SE", "idToken"]
 - !private ["SE", "name"]
 - !private ["SE", "profile"]
-- !private ["SE", "userID"]
+- !private ["SQ", "Auth"]
+- !private ["SQ", "FirebaseApp"]
 - !private ["SQ", "GIDSignIn"]
 - !private ["SQ", "GIDSignInErrorCode"]
+- !private ["SQ", "GoogleAuthProvider"]
 - ["SQ", "LaunchOptionsKey"]
 - !private ["SQ", "Name"]
 - !private ["SQ", "Notification"]
@@ -233,6 +244,8 @@ depends-member:
 - ["SQ", "OpenURLOptionsKey"]
 - !private ["SQ", "RawValue"]
 - ["SQ", ""]
+- !private ["SQ", "accessToken"]
+- !private ["SQ", "app"]
 - ["SQ", "application"]
 - ["SQ", "applicationDidBecomeActive"]
 - ["SQ", "applicationDidEnterBackground"]
@@ -245,19 +258,20 @@ depends-member:
 - ["SQ", "applicationWillEnterForeground"]
 - ["SQ", "applicationWillResignActive"]
 - ["SQ", "applicationWillTerminate"]
+- !private ["SQ", "auth"]
 - !private ["SQ", "authentication"]
 - !private ["SQ", "clientID"]
 - !private ["SQ", "code"]
+- !private ["SQ", "configure"]
+- !private ["SQ", "credential"]
 - !private ["SQ", "default"]
 - !private ["SQ", "delegate"]
-- !private ["SQ", "email"]
-- !private ["SQ", "familyName"]
-- !private ["SQ", "givenName"]
 - !private ["SQ", "handle"]
 - !private ["SQ", "hasNoAuthInKeychain"]
 - !private ["SQ", "idToken"]
 - !private ["SQ", "init"]
 - !private ["SQ", "name"]
+- !private ["SQ", "options"]
 - !private ["SQ", "post"]
 - !private ["SQ", "print"]
 - !private ["SQ", "profile"]
@@ -265,7 +279,6 @@ depends-member:
 - !private ["SQ", "sharedInstance"]
 - ["SQ", "sign"]
 - ["SQ", "signIn"]
-- !private ["SQ", "userID"]
 - ["SQ", "window"]
 - !private ["s5ErrorP", "code"]
 - !private ["s5ErrorP", "localizedDescription"]
@@ -276,33 +289,32 @@ depends-member:
 - !private ["s23ExpressibleByNilLiteralP", "authentication"]
 - !private ["s23ExpressibleByNilLiteralP", "clientID"]
 - !private ["s23ExpressibleByNilLiteralP", "delegate"]
-- !private ["s23ExpressibleByNilLiteralP", "email"]
-- !private ["s23ExpressibleByNilLiteralP", "familyName"]
-- !private ["s23ExpressibleByNilLiteralP", "givenName"]
 - !private ["s23ExpressibleByNilLiteralP", "handle"]
-- !private ["s23ExpressibleByNilLiteralP", "idToken"]
 - !private ["s23ExpressibleByNilLiteralP", "name"]
 - !private ["s23ExpressibleByNilLiteralP", "profile"]
-- !private ["s23ExpressibleByNilLiteralP", "userID"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - ["s32ExpressibleByStringInterpolationP", ""]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- !private ["So6FIRAppC", "app"]
+- !private ["So6FIRAppC", "configure"]
+- !private ["So6FIRAppC", "options"]
+- !private ["So10FIROptionsC", "clientID"]
+- !private ["So17GIDAuthenticationC", "accessToken"]
 - !private ["So17GIDAuthenticationC", "idToken"]
 - !private ["So13GIDGoogleUserC", "authentication"]
 - !private ["So13GIDGoogleUserC", "profile"]
-- !private ["So13GIDGoogleUserC", "userID"]
-- !private ["So14GIDProfileDataC", "email"]
-- !private ["So14GIDProfileDataC", "familyName"]
-- !private ["So14GIDProfileDataC", "givenName"]
 - !private ["So14GIDProfileDataC", "name"]
 - !private ["So9GIDSignInC", "clientID"]
 - !private ["So9GIDSignInC", "delegate"]
 - !private ["So9GIDSignInC", "handle"]
 - !private ["So9GIDSignInC", "sharedInstance"]
+- !private ["So17GIDSignInDelegateP", "Auth"]
+- !private ["So17GIDSignInDelegateP", "FirebaseApp"]
 - !private ["So17GIDSignInDelegateP", "GIDSignIn"]
 - !private ["So17GIDSignInDelegateP", "GIDSignInErrorCode"]
+- !private ["So17GIDSignInDelegateP", "GoogleAuthProvider"]
 - !private ["So17GIDSignInDelegateP", "Notification"]
 - !private ["So17GIDSignInDelegateP", "NotificationCenter"]
 - ["So17GIDSignInDelegateP", ""]
@@ -327,8 +339,12 @@ depends-member:
 - !private ["So18GIDSignInErrorCodeV", "RawValue"]
 - !private ["So18GIDSignInErrorCodeV", "hasNoAuthInKeychain"]
 - !private ["So18GIDSignInErrorCodeV", "rawValue"]
+- !private ["So21FIRGoogleAuthProviderC", "credential"]
+- !private ["SH", "Auth"]
+- !private ["SH", "FirebaseApp"]
 - !private ["SH", "GIDSignIn"]
 - !private ["SH", "GIDSignInErrorCode"]
+- !private ["SH", "GoogleAuthProvider"]
 - ["SH", "LaunchOptionsKey"]
 - !private ["SH", "Name"]
 - !private ["SH", "Notification"]
@@ -336,6 +352,8 @@ depends-member:
 - ["SH", "OpenURLOptionsKey"]
 - !private ["SH", "RawValue"]
 - ["SH", ""]
+- !private ["SH", "accessToken"]
+- !private ["SH", "app"]
 - ["SH", "application"]
 - ["SH", "applicationDidBecomeActive"]
 - ["SH", "applicationDidEnterBackground"]
@@ -348,19 +366,20 @@ depends-member:
 - ["SH", "applicationWillEnterForeground"]
 - ["SH", "applicationWillResignActive"]
 - ["SH", "applicationWillTerminate"]
+- !private ["SH", "auth"]
 - !private ["SH", "authentication"]
 - !private ["SH", "clientID"]
 - !private ["SH", "code"]
+- !private ["SH", "configure"]
+- !private ["SH", "credential"]
 - !private ["SH", "default"]
 - !private ["SH", "delegate"]
-- !private ["SH", "email"]
-- !private ["SH", "familyName"]
-- !private ["SH", "givenName"]
 - !private ["SH", "handle"]
 - !private ["SH", "hasNoAuthInKeychain"]
 - !private ["SH", "idToken"]
 - !private ["SH", "init"]
 - !private ["SH", "name"]
+- !private ["SH", "options"]
 - !private ["SH", "post"]
 - !private ["SH", "print"]
 - !private ["SH", "profile"]
@@ -368,30 +387,27 @@ depends-member:
 - !private ["SH", "sharedInstance"]
 - ["SH", "sign"]
 - ["SH", "signIn"]
-- !private ["SH", "userID"]
 - ["SH", "window"]
 - ["s25LosslessStringConvertibleP", ""]
 - ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "accessToken"]
 - !private ["So8NSCodingP", "authentication"]
 - !private ["So8NSCodingP", "code"]
-- !private ["So8NSCodingP", "email"]
-- !private ["So8NSCodingP", "familyName"]
-- !private ["So8NSCodingP", "givenName"]
 - !private ["So8NSCodingP", "idToken"]
 - !private ["So8NSCodingP", "name"]
 - !private ["So8NSCodingP", "profile"]
-- !private ["So8NSCodingP", "userID"]
+- !private ["So9NSCopyingP", "clientID"]
 - !private ["So9NSCopyingP", "code"]
-- !private ["So9NSCopyingP", "email"]
-- !private ["So9NSCopyingP", "familyName"]
-- !private ["So9NSCopyingP", "givenName"]
 - !private ["So9NSCopyingP", "name"]
 - !private ["So7NSErrorC", "code"]
+- !private ["So8NSObjectC", "Auth"]
 - ["So8NSObjectC", "Bool"]
 - ["So8NSObjectC", "Error"]
+- !private ["So8NSObjectC", "FirebaseApp"]
 - ["So8NSObjectC", "GIDGoogleUser"]
 - ["So8NSObjectC", "GIDSignIn"]
 - !private ["So8NSObjectC", "GIDSignInErrorCode"]
+- !private ["So8NSObjectC", "GoogleAuthProvider"]
 - ["So8NSObjectC", "LaunchOptionsKey"]
 - !private ["So8NSObjectC", "NSError"]
 - !private ["So8NSObjectC", "Notification"]
@@ -402,6 +418,9 @@ depends-member:
 - ["So8NSObjectC", "UIWindow"]
 - ["So8NSObjectC", "URL"]
 - ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "accessToken"]
+- !private ["So8NSObjectC", "app"]
+- !private ["So8NSObjectC", "appNamed"]
 - ["So8NSObjectC", "application"]
 - ["So8NSObjectC", "applicationDidBecomeActive"]
 - ["So8NSObjectC", "applicationDidEnterBackground"]
@@ -414,19 +433,25 @@ depends-member:
 - ["So8NSObjectC", "applicationWillEnterForeground"]
 - ["So8NSObjectC", "applicationWillResignActive"]
 - ["So8NSObjectC", "applicationWillTerminate"]
+- !private ["So8NSObjectC", "auth"]
+- !private ["So8NSObjectC", "authWithApp"]
 - !private ["So8NSObjectC", "authentication"]
 - !private ["So8NSObjectC", "clientID"]
 - !private ["So8NSObjectC", "code"]
+- !private ["So8NSObjectC", "configure"]
+- !private ["So8NSObjectC", "configureWithName"]
+- !private ["So8NSObjectC", "configureWithOptions"]
+- !private ["So8NSObjectC", "credential"]
+- !private ["So8NSObjectC", "credentialWithIDToken"]
 - !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "defaultApp"]
 - !private ["So8NSObjectC", "delegate"]
-- !private ["So8NSObjectC", "email"]
-- !private ["So8NSObjectC", "familyName"]
-- !private ["So8NSObjectC", "givenName"]
 - !private ["So8NSObjectC", "handle"]
 - !private ["So8NSObjectC", "handleURL"]
 - !private ["So8NSObjectC", "idToken"]
 - ["So8NSObjectC", "init"]
 - !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "options"]
 - !private ["So8NSObjectC", "post"]
 - !private ["So8NSObjectC", "postNotification"]
 - !private ["So8NSObjectC", "postNotificationName"]
@@ -435,13 +460,19 @@ depends-member:
 - !private ["So8NSObjectC", "sharedInstance"]
 - ["So8NSObjectC", "sign"]
 - ["So8NSObjectC", "signIn"]
-- !private ["So8NSObjectC", "userID"]
+- !private ["So8NSObjectC", "signInWithCredential"]
+- !private ["So8NSObjectC", "signInWithCustomToken"]
+- !private ["So8NSObjectC", "signInWithEmail"]
+- !private ["So8NSObjectC", "signInWithProvider"]
 - ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "Auth"]
 - ["So8NSObjectP", "Bool"]
 - ["So8NSObjectP", "Error"]
+- !private ["So8NSObjectP", "FirebaseApp"]
 - ["So8NSObjectP", "GIDGoogleUser"]
 - ["So8NSObjectP", "GIDSignIn"]
 - !private ["So8NSObjectP", "GIDSignInErrorCode"]
+- !private ["So8NSObjectP", "GoogleAuthProvider"]
 - ["So8NSObjectP", "LaunchOptionsKey"]
 - !private ["So8NSObjectP", "NSError"]
 - !private ["So8NSObjectP", "Notification"]
@@ -452,6 +483,9 @@ depends-member:
 - ["So8NSObjectP", "UIWindow"]
 - ["So8NSObjectP", "URL"]
 - ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "accessToken"]
+- !private ["So8NSObjectP", "app"]
+- !private ["So8NSObjectP", "appNamed"]
 - ["So8NSObjectP", "application"]
 - ["So8NSObjectP", "applicationDidBecomeActive"]
 - ["So8NSObjectP", "applicationDidEnterBackground"]
@@ -464,20 +498,26 @@ depends-member:
 - ["So8NSObjectP", "applicationWillEnterForeground"]
 - ["So8NSObjectP", "applicationWillResignActive"]
 - ["So8NSObjectP", "applicationWillTerminate"]
+- !private ["So8NSObjectP", "auth"]
+- !private ["So8NSObjectP", "authWithApp"]
 - !private ["So8NSObjectP", "authentication"]
 - !private ["So8NSObjectP", "clientID"]
 - !private ["So8NSObjectP", "code"]
+- !private ["So8NSObjectP", "configure"]
+- !private ["So8NSObjectP", "configureWithName"]
+- !private ["So8NSObjectP", "configureWithOptions"]
+- !private ["So8NSObjectP", "credential"]
+- !private ["So8NSObjectP", "credentialWithIDToken"]
 - !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "defaultApp"]
 - ["So8NSObjectP", "deinit"]
 - !private ["So8NSObjectP", "delegate"]
-- !private ["So8NSObjectP", "email"]
-- !private ["So8NSObjectP", "familyName"]
-- !private ["So8NSObjectP", "givenName"]
 - !private ["So8NSObjectP", "handle"]
 - !private ["So8NSObjectP", "handleURL"]
 - !private ["So8NSObjectP", "idToken"]
 - ["So8NSObjectP", "init"]
 - !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "options"]
 - !private ["So8NSObjectP", "post"]
 - !private ["So8NSObjectP", "postNotification"]
 - !private ["So8NSObjectP", "postNotificationName"]
@@ -486,17 +526,17 @@ depends-member:
 - !private ["So8NSObjectP", "sharedInstance"]
 - ["So8NSObjectP", "sign"]
 - ["So8NSObjectP", "signIn"]
-- !private ["So8NSObjectP", "userID"]
+- !private ["So8NSObjectP", "signInWithCredential"]
+- !private ["So8NSObjectP", "signInWithCustomToken"]
+- !private ["So8NSObjectP", "signInWithEmail"]
+- !private ["So8NSObjectP", "signInWithProvider"]
 - ["So8NSObjectP", "window"]
+- !private ["So14NSSecureCodingP", "accessToken"]
 - !private ["So14NSSecureCodingP", "authentication"]
 - !private ["So14NSSecureCodingP", "code"]
-- !private ["So14NSSecureCodingP", "email"]
-- !private ["So14NSSecureCodingP", "familyName"]
-- !private ["So14NSSecureCodingP", "givenName"]
 - !private ["So14NSSecureCodingP", "idToken"]
 - !private ["So14NSSecureCodingP", "name"]
 - !private ["So14NSSecureCodingP", "profile"]
-- !private ["So14NSSecureCodingP", "userID"]
 - !private ["So18NSNotificationNamea", "RawValue"]
 - !private ["So18NSNotificationNamea", "init"]
 - !private ["10Foundation12NotificationV", "Name"]
@@ -505,14 +545,9 @@ depends-member:
 - !private ["Sq", "authentication"]
 - !private ["Sq", "clientID"]
 - !private ["Sq", "delegate"]
-- !private ["Sq", "email"]
-- !private ["Sq", "familyName"]
-- !private ["Sq", "givenName"]
 - !private ["Sq", "handle"]
-- !private ["Sq", "idToken"]
 - !private ["Sq", "name"]
 - !private ["Sq", "profile"]
-- !private ["Sq", "userID"]
 - !private ["SY", "RawValue"]
 - !private ["SY", ""]
 - !private ["SY", "hasNoAuthInKeychain"]
@@ -529,8 +564,11 @@ depends-member:
 - ["s20TextOutputStreamableP", ""]
 - ["So13UIApplicationC", "LaunchOptionsKey"]
 - ["So13UIApplicationC", "OpenURLOptionsKey"]
+- !private ["So21UIApplicationDelegateP", "Auth"]
+- !private ["So21UIApplicationDelegateP", "FirebaseApp"]
 - !private ["So21UIApplicationDelegateP", "GIDSignIn"]
 - !private ["So21UIApplicationDelegateP", "GIDSignInErrorCode"]
+- !private ["So21UIApplicationDelegateP", "GoogleAuthProvider"]
 - !private ["So21UIApplicationDelegateP", "Notification"]
 - !private ["So21UIApplicationDelegateP", "NotificationCenter"]
 - ["So21UIApplicationDelegateP", ""]
@@ -555,11 +593,14 @@ depends-member:
 - ["So18UIFocusEnvironmentP", ""]
 - !private ["So20UIFocusItemContainerP", ""]
 - !private ["So10UIKeyInputP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "Auth"]
 - ["So30UIPasteConfigurationSupportingP", "Bool"]
 - ["So30UIPasteConfigurationSupportingP", "Error"]
+- !private ["So30UIPasteConfigurationSupportingP", "FirebaseApp"]
 - ["So30UIPasteConfigurationSupportingP", "GIDGoogleUser"]
 - ["So30UIPasteConfigurationSupportingP", "GIDSignIn"]
 - !private ["So30UIPasteConfigurationSupportingP", "GIDSignInErrorCode"]
+- !private ["So30UIPasteConfigurationSupportingP", "GoogleAuthProvider"]
 - ["So30UIPasteConfigurationSupportingP", "LaunchOptionsKey"]
 - !private ["So30UIPasteConfigurationSupportingP", "NSError"]
 - !private ["So30UIPasteConfigurationSupportingP", "Notification"]
@@ -588,11 +629,14 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "sign"]
 - ["So30UIPasteConfigurationSupportingP", "signIn"]
 - ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So11UIResponderC", "Auth"]
 - ["So11UIResponderC", "Bool"]
 - ["So11UIResponderC", "Error"]
+- !private ["So11UIResponderC", "FirebaseApp"]
 - ["So11UIResponderC", "GIDGoogleUser"]
 - ["So11UIResponderC", "GIDSignIn"]
 - !private ["So11UIResponderC", "GIDSignInErrorCode"]
+- !private ["So11UIResponderC", "GoogleAuthProvider"]
 - ["So11UIResponderC", "LaunchOptionsKey"]
 - !private ["So11UIResponderC", "NSError"]
 - !private ["So11UIResponderC", "Notification"]
@@ -620,11 +664,14 @@ depends-member:
 - ["So11UIResponderC", "sign"]
 - ["So11UIResponderC", "signIn"]
 - ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "Auth"]
 - ["So30UIResponderStandardEditActionsP", "Bool"]
 - ["So30UIResponderStandardEditActionsP", "Error"]
+- !private ["So30UIResponderStandardEditActionsP", "FirebaseApp"]
 - ["So30UIResponderStandardEditActionsP", "GIDGoogleUser"]
 - ["So30UIResponderStandardEditActionsP", "GIDSignIn"]
 - !private ["So30UIResponderStandardEditActionsP", "GIDSignInErrorCode"]
+- !private ["So30UIResponderStandardEditActionsP", "GoogleAuthProvider"]
 - ["So30UIResponderStandardEditActionsP", "LaunchOptionsKey"]
 - !private ["So30UIResponderStandardEditActionsP", "NSError"]
 - !private ["So30UIResponderStandardEditActionsP", "Notification"]
@@ -654,11 +701,14 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "signIn"]
 - ["So30UIResponderStandardEditActionsP", "window"]
 - !private ["So17UITextInputTraitsP", ""]
+- !private ["So23UIUserActivityRestoringP", "Auth"]
 - ["So23UIUserActivityRestoringP", "Bool"]
 - ["So23UIUserActivityRestoringP", "Error"]
+- !private ["So23UIUserActivityRestoringP", "FirebaseApp"]
 - ["So23UIUserActivityRestoringP", "GIDGoogleUser"]
 - ["So23UIUserActivityRestoringP", "GIDSignIn"]
 - !private ["So23UIUserActivityRestoringP", "GIDSignInErrorCode"]
+- !private ["So23UIUserActivityRestoringP", "GoogleAuthProvider"]
 - ["So23UIUserActivityRestoringP", "LaunchOptionsKey"]
 - !private ["So23UIUserActivityRestoringP", "NSError"]
 - !private ["So23UIUserActivityRestoringP", "Notification"]
@@ -695,13 +745,18 @@ depends-member:
 - !private ["s35_HasCustomAnyHashableRepresentationP", "RawValue"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", ""]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Auth"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "FirebaseApp"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignIn"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "GIDSignInErrorCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "GoogleAuthProvider"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "LaunchOptionsKey"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "Notification"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "NotificationCenter"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "OpenURLOptionsKey"]
 - ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "accessToken"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "app"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "application"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidBecomeActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationDidEnterBackground"]
@@ -714,32 +769,37 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillEnterForeground"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillResignActive"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "applicationWillTerminate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "auth"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "authentication"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "clientID"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "code"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "configure"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "credential"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "email"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "familyName"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "givenName"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "handle"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "idToken"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "options"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "post"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "profile"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "sharedInstance"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "sign"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "signIn"]
-- !private ["10Foundation27_KeyValueCodingAndObservingP", "userID"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Auth"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FirebaseApp"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignIn"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GIDSignInErrorCode"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "GoogleAuthProvider"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "LaunchOptionsKey"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "Notification"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "NotificationCenter"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "OpenURLOptionsKey"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", ""]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "accessToken"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "app"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "application"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidBecomeActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationDidEnterBackground"]
@@ -752,24 +812,24 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillEnterForeground"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillResignActive"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "applicationWillTerminate"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "auth"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "authentication"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "clientID"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "code"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "configure"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "credential"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "default"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "delegate"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "email"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "familyName"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "givenName"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "handle"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "idToken"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "name"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "options"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "post"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "print"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "profile"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sharedInstance"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sign"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "signIn"]
-- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "userID"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "window"]
 - !private ["s21_ObjectiveCBridgeableP", "Name"]
 - !private ["s21_ObjectiveCBridgeableP", "RawValue"]
@@ -777,19 +837,15 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "authentication"]
 - !private ["s21_ObjectiveCBridgeableP", "clientID"]
 - !private ["s21_ObjectiveCBridgeableP", "delegate"]
-- !private ["s21_ObjectiveCBridgeableP", "email"]
-- !private ["s21_ObjectiveCBridgeableP", "familyName"]
-- !private ["s21_ObjectiveCBridgeableP", "givenName"]
 - !private ["s21_ObjectiveCBridgeableP", "handle"]
-- !private ["s21_ObjectiveCBridgeableP", "idToken"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
 - !private ["s21_ObjectiveCBridgeableP", "name"]
 - !private ["s21_ObjectiveCBridgeableP", "profile"]
-- !private ["s21_ObjectiveCBridgeableP", "userID"]
 - !private ["s20_SwiftNewtypeWrapperP", "RawValue"]
 - !private ["s20_SwiftNewtypeWrapperP", "init"]
 depends-nominal:
 - "8AHSClubX11AppDelegateC"
+- !private "So7FIRAuthC"
 - "SK"
 - "s7CVarArgP"
 - "Sl"
@@ -808,12 +864,15 @@ depends-nominal:
 - "s32ExpressibleByStringInterpolationP"
 - "s26ExpressibleByStringLiteralP"
 - "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "So6FIRAppC"
+- !private "So10FIROptionsC"
 - !private "So17GIDAuthenticationC"
 - !private "So13GIDGoogleUserC"
 - !private "So14GIDProfileDataC"
 - !private "So9GIDSignInC"
 - "So17GIDSignInDelegateP"
 - !private "So18GIDSignInErrorCodeV"
+- !private "So21FIRGoogleAuthProviderC"
 - "SH"
 - "s25LosslessStringConvertibleP"
 - "So8NSCodingP"
@@ -868,15 +927,82 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/Swift.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/UIKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRMutableData.h"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDProfileData.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageMetadata.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRUserMetadata.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageReference.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRDatabaseReference.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorage.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FirebaseStorage.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthAPNSTokenType.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRDataEventType.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FirebaseCore.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRDatabase.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FirebaseDatabase.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Firebase/CoreOnly/Sources/Firebase.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthUIDelegate.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRServerValue.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuth.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FirebaseAuth.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageDownloadTask.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageUploadTask.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageTask.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageObservableTask.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIROAuthCredential.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthCredential.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRPhoneAuthCredential.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIRLoggerLevel.h"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignIn.h"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GoogleSignIn.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FirebaseAuthVersion.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRMultiFactorSession.h"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDAuthentication.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIRConfiguration.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRMultiFactorAssertion.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRPhoneMultiFactorAssertion.h"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDSignInButton.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRUserInfo.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAdditionalUserInfo.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRMultiFactorInfo.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRPhoneMultiFactorInfo.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIRApp.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIROAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRGitHubAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRFederatedAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRGoogleAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRPhoneAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRFacebookAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIREmailAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRGameCenterAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRTwitterAuthProvider.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRUser.h"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Headers/GIDGoogleUser.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRMultiFactorResolver.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRPhoneMultiFactorGenerator.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRMultiFactor.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRActionCodeSettings.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthSettings.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseCore/FIROptions.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthErrors.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageConstants.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthDataResult.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseAuth/FIRAuthTokenResult.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRTransactionResult.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageListResult.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRDataSnapshot.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseStorage/FIRStorageTaskSnapshot.h"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/Headers/Public/FirebaseDatabase/FIRDatabaseQuery.h"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/dyld.modulemap"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/Firebase/CoreOnly/Sources/module.modulemap"
 - "/Users/anjugoenka/Desktop/AHSClubX/Pods/GoogleSignIn/Frameworks/GoogleSignIn.framework/Modules/module.modulemap"
+- "/Users/anjugoenka/Desktop/AHSClubX/Pods/FirebaseAnalytics/Frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/usr/include/objc/ObjectiveC.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
@@ -892,4 +1018,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.3.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "6451863a05907c66584de0e19711e5ed"
+interface-hash: "8de391019b724510817b6f61a54435c0"
