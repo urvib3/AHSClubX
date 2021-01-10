@@ -176,19 +176,33 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AppAuth-framework/AppAuth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC-framework/openssl_grpc.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKCoreKit-framework/FBSDKCoreKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKLoginKit-framework/FBSDKLoginKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMAppAuth-framework/GTMAppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-framework/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromisesObjC-framework/FBLPromises.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage-framework/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/abseil-framework/absl.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/gRPC-C++-framework/grpcpp.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/gRPC-Core-framework/grpc.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library-framework/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AppAuth-framework/AppAuth.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/BoringSSL-GRPC-framework/openssl_grpc.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKCoreKit-framework/FBSDKCoreKit.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/FBSDKLoginKit-framework/FBSDKLoginKit.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMAppAuth-framework/GTMAppAuth.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-framework/GTMSessionFetcher.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/GoogleUtilities-framework/GoogleUtilities.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/PromisesObjC-framework/FBLPromises.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/SDWebImage-framework/SDWebImage.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/abseil-framework/absl.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/gRPC-C++-framework/grpcpp.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/gRPC-Core-framework/grpc.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/leveldb-library-framework/leveldb.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/nanopb-framework/nanopb.framework"
 fi

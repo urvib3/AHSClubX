@@ -22,7 +22,9 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLSchemes</key>
-			<array/>
+			<array>
+				<string>fb322708868877202</string>
+			</array>
 		</dict>
 		<dict>
 			<key>CFBundleTypeRole</key>

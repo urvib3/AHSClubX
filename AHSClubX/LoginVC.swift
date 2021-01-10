@@ -8,17 +8,18 @@
 import UIKit
 import GoogleSignIn
 import Firebase
+import FBSDKLoginKit
 
 // Match the ObjC symbol name inside Main.storyboard.
 @objc(LoginVC)
 // [START viewcontroller_interfaces]
-class LoginVC: UIViewController {
-// [END viewcontroller_interfaces]
+class LoginViewController: UIViewController, LoginButtonDelegate {
+    
+        // [END viewcontroller_interfaces]
 
-  // [START viewcontroller_vars]
-  @IBOutlet weak var signInButton: GIDSignInButton!
-  @IBOutlet weak var statusText: UILabel!
-  // [END viewcontroller_vars]
+    
+    @IBOutlet weak var signInButton: GIDSignInButton!
+    
     
     override func viewDidAppear(_ animated: Bool) {
         GIDSignIn.sharedInstance()?.presentingViewController = self
@@ -26,36 +27,53 @@ class LoginVC: UIViewController {
 
   // [START viewdidload]
     override func viewDidLoad() {
-    super.viewDidLoad()
-   
-    self.navigationController?.setNavigationBarHidden(true, animated: true)
-    
+        super.viewDidLoad()
+       
+        self.navigationController?.setNavigationBarHidden(true, animated: true)
         
-    GIDSignIn.sharedInstance()?.presentingViewController = self
-    GIDSignIn.sharedInstance().signIn()
+        // google sign in config
+        GIDSignIn.sharedInstance()?.presentingViewController = self
+        GIDSignIn.sharedInstance().signIn()
+            
+        // Setup allowing CalendarVC to access buttons
+        NotificationCenter.default.addObserver(self, selector: #selector(prepFromCalendar), name: NSNotification.Name(rawValue: "prepFromCalendar"), object: nil)
+
+            
+        // google sign in buttn auto layout
+        signInButton.center = view.center
+            
+        // facebook login button
+        let loginButton = FBLoginButton()
+        loginButton.delegate = self
+        loginButton.widthAnchor.constraint(equalToConstant: 160).isActive = true
+        loginButton.heightAnchor.constraint(equalToConstant: 80).isActive = true
+        loginButton.center = view.center
+        view.addSubview(loginButton)
         
-    // Setup allowing CalendarVC to access buttons
-    NotificationCenter.default.addObserver(self, selector: #selector(prepFromCalendar), name: NSNotification.Name(rawValue: "prepFromCalendar"), object: nil)
+        // facebook log in config
+        if let token = AccessToken.current,
+                !token.isExpired {
+                // User is logged in, do work such as go to next view controller.
+            }
+        // request additional read permissions
+        loginButton.permissions = ["public_profile", "email"]
+            
+            
+        // [START_EXCLUDE]
+        NotificationCenter.default.addObserver(self,
+            selector: #selector(LoginViewController.receiveToggleAuthUINotification(_:)),
+            name: NSNotification.Name(rawValue: "ToggleAuthUINotification"),
+            object: nil)
 
-    
-    // [START_EXCLUDE]
-    NotificationCenter.default.addObserver(self,
-        selector: #selector(LoginVC.receiveToggleAuthUINotification(_:)),
-        name: NSNotification.Name(rawValue: "ToggleAuthUINotification"),
-        object: nil)
-
-    statusText.text = "Initialized Swift app..."
-    toggleAuthUI()
-    // [END_EXCLUDE]
+        toggleAuthUI()
+        // [END_EXCLUDE]
   }
   // [END viewdidload]
 
   // [START disconnect_tapped]
   @IBAction func didTapDisconnect(_ sender: AnyObject) {
+    
     GIDSignIn.sharedInstance().disconnect()
-    // [START_EXCLUDE silent]
-    statusText.text = "Disconnecting."
-    // [END_EXCLUDE]
   }
   // [END disconnect_tapped]
 
@@ -77,16 +95,19 @@ class LoginVC: UIViewController {
   //MARK: Navigation
     
     @IBAction func unwindToLogin(sender: UIStoryboardSegue) {
-        if let sourceViewController = sender.source as? EventTableViewController {
+        if sender.source is EventTableViewController {
             
+            // google sign out
             GIDSignIn.sharedInstance()?.signOut()
             
+            // facebook log out
             let firebaseAuth = Auth.auth()
             do {
               try firebaseAuth.signOut()
             } catch let signOutError as NSError {
               print ("Error signing out: %@", signOutError)
             }
+              
         }
     }
     
@@ -95,7 +116,6 @@ class LoginVC: UIViewController {
     // insert any code needed to update Login Page from Calendar View before segue
     //self.modalPresentationStyle = .fullScreen
     //self.presentationController?.presentedView?.gestureRecognizers?[0].isEnabled = false
-    statusText.text = "User signed out"
   }
 
   override var preferredStatusBarStyle: UIStatusBarStyle {
@@ -111,11 +131,31 @@ class LoginVC: UIViewController {
   @objc func receiveToggleAuthUINotification(_ notification: NSNotification) {
     if notification.name.rawValue == "ToggleAuthUINotification" {
       self.toggleAuthUI()
-      if notification.userInfo != nil {
-        guard let userInfo = notification.userInfo as? [String:String] else { return }
-        self.statusText.text = userInfo["statusText"]!
-      }
     }
   }
+    
+    
+    func loginButton(_ loginButton: FBLoginButton, didCompleteWith result: LoginManagerLoginResult?, error: Error?) {
+            print("inside login button function vc")
+            if let error = error {
+                print(error.localizedDescription)
+                return
+            }
+            
+            // access and exchange access token for user for a Firebase credential
+            let credential = FacebookAuthProvider.credential(withAccessToken: AccessToken.current!.tokenString)
+            Auth.auth().signIn(with: credential) { (authResult, error) in
+                if let error = error {
+                    print("authentication error \(error.localizedDescription)")
+                }
+                else {
+                    print("successfully logged into firebase")
+                }
+        }
+    }
+    
+    func loginButtonDidLogOut(_ loginButton: FBLoginButton) {
+        print("user signed out")
+    }
 
 }
